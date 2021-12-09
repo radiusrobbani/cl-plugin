@@ -1,0 +1,311 @@
+/* Modal */
+
+/* ============== Rtcl Modal START ============== */
+.rtcl-ui-modal {
+    width: 100%;
+    z-index: 2000;
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    -webkit-transition: transform .4s ease, opacity .4s ease, width .4s ease;
+    transition: opacity .15s linear;
+    
+    .rtcl-modal-wrapper {
+        width: auto;
+        height: 100%;
+        margin: .5rem;
+        position: relative;
+        z-index: 2003;
+        max-height: calc(100% - 1rem);
+        min-height: calc(100% - 1rem);
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        
+        .rtcl-modal-content {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            width: 100%;
+            pointer-events: auto;
+            background-color: #fff;
+            background-clip: padding-box;
+            border: 1px solid rgba(0, 0, 0, .2);
+            border-radius: .3rem;
+            outline: 0;
+            max-height: none;
+            overflow: hidden;
+            
+            .rtcl-modal-header {
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-align: start;
+                align-items: flex-start;
+                -ms-flex-pack: justify;
+                justify-content: space-between;
+                padding: 1rem 1rem;
+                border-bottom: 1px solid #dee2e6;
+                border-top-left-radius: calc(.3rem - 1px);
+                border-top-right-radius: calc(.3rem - 1px);
+            }
+            
+            .rtcl-modal-title {
+                * {
+                    margin: 0;
+                }
+            }
+            
+            .rtcl-modal-body {
+                position: relative;
+                -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+                padding: 1rem;
+                overflow-y: auto;
+                max-height: calc(100vh - 150px);
+            }
+            
+            .rtcl-modal-close {
+                cursor: pointer;
+                padding: 1rem 1rem;
+                margin: -1rem -1rem -1rem auto;
+                font-size: 1.5rem;
+                font-weight: 700;
+                line-height: 1;
+                color: #000;
+                text-shadow: 0 1px 0 #fff;
+                opacity: .5;
+                background-color: transparent;
+                border: 0;
+            }
+            
+            .rtcl-modal-footer {
+                display: -ms-flexbox;
+                display: flex;
+                -ms-flex-wrap: wrap;
+                flex-wrap: wrap;
+                -ms-flex-align: center;
+                align-items: center;
+                -ms-flex-pack: end;
+                justify-content: flex-end;
+                padding: .75rem;
+                border-top: 1px solid #dee2e6;
+                border-bottom-right-radius: calc(.3rem - 1px);
+                border-bottom-left-radius: calc(.3rem - 1px);
+            }
+            
+            .rtcl-ui-select-list-wrap {
+                position: relative;
+                
+                h4 {
+                    font-size: 17px;
+                    
+                    span {
+                        &:before {
+                            font-family: 'rtcl', serif;
+                            content: '\f105'; // angle-right
+                        }
+                    }
+                }
+                
+                .rtcl-select-action {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    
+                    .go-back {
+                        font-size: 15px;
+                        font-weight: bold;
+                        cursor: pointer;
+                        
+                        &:before {
+                            font-family: 'rtcl', serif;
+                            content: '\f104'; //angle-left
+                            margin-right: 5px;
+                        }
+                    }
+                }
+                
+                .rtcl-ui-select-list {
+                    ul {
+                        li {
+                            border-top: solid 1px #d4ded9;
+                            
+                            a {
+                                padding: 8px 0;
+                                display: block;
+                                position: relative;
+                                
+                                .icon {
+                                    margin: 0 5px;
+                                    
+                                    .tcl-cat-icon {
+                                        &:before {
+                                            margin-left: 0;
+                                        }
+                                    }
+                                    
+                                    img {
+                                        max-width: 15px;
+                                        max-height: 15px;
+                                        margin-right: .2rem;
+                                        display: inline-block;
+                                    }
+                                }
+                            }
+                            
+                            &.has-sub {
+                                a {
+                                    &:after {
+                                        display: inline-block;
+                                        font: normal normal normal 14px/1 'rtcl';
+                                        font-size: inherit;
+                                        text-rendering: auto;
+                                        -webkit-font-smoothing: antialiased;
+                                        content: "\f105"; //angle-right
+                                        -moz-osx-font-smoothing: grayscale;
+                                        float: right;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                    
+                }
+            }
+            
+        }
+        
+        &.no-heading {
+            .rtcl-modal-header {
+                padding: 0;
+                border: 0;
+            }
+            
+            .rtcl-modal-title {
+                display: none;
+            }
+            
+            .rtcl-modal-content {
+                overflow: initial;
+            }
+            
+            .rtcl-modal-close {
+                position: absolute;
+                right: 0;
+                top: 0;
+                border-radius: 50%;
+                background: #000;
+                padding: 0;
+                width: 30px;
+                height: 30px;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                
+                i {
+                    color: #fff;
+                }
+            }
+        }
+    }
+    
+    .rtcl-mask-wrapper {
+        position: fixed;
+        opacity: 0;
+        top: 0;
+        left: 0;
+        z-index: 2001;
+        width: 100vw;
+        height: 100vh;
+        background-color: #000;
+        transition: opacity .15s linear;
+    }
+}
+
+html {
+    &[dir='rtl'] {
+        .rtcl-ui-modal {
+            .rtcl-modal-wrapper {
+                .rtcl-modal-content {
+                    .rtcl-modal-close {
+                        margin-left: -1rem;
+                    }
+                }
+            }
+        }
+    }
+}
+
+body {
+    &.rtcl-modal-open {
+        overflow: hidden;
+        min-width: 100%;
+        
+        .rtcl-ui-modal {
+            overflow: auto;
+            display: block;
+            
+            .rtcl-mask-wrapper {
+                opacity: .5;
+            }
+        }
+    }
+}
+
+/* ============== Rtcl Modal END ================ */
+
+/************************** RTL START **************************/
+html[dir="rtl"] {
+    .rtcl-ui-modal {
+        .rtcl-modal-wrapper {
+            .rtcl-modal-content {
+                .rtcl-ui-select-list-wrap {
+                    h4 {
+                        span {
+                            &:before {
+                                content: "\f104"; // angle-left
+                            }
+                        }
+                    }
+                    
+                    .rtcl-select-action {
+                        right: inherit;
+                        left: 0;
+                    }
+                    
+                    .rtcl-ui-select-list ul li.has-sub a::after {
+                        float: left;
+                        content: "\f104"; // angle-left
+                    }
+                }
+            }
+        }
+        
+    }
+}
+
+/* ============== Media query responsive ============== */
+@media only screen and (min-width: 576px) {
+    .rtcl-ui-modal {
+        .rtcl-modal-wrapper {
+            min-height: calc(100% - 3.5rem);
+            max-height: calc(100% - 3.5rem);
+            max-width: 500px;
+            margin: 1.75rem auto;
+        }
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .rtcl-ui-modal {
+        .rtcl-modal-content {
+            .sub-wrapper.is-active {
+                padding-left: 0;
+                padding-right: 10px;
+            }
+        }
+    }
+}

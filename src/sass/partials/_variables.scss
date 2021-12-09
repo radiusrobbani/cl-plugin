@@ -1,0 +1,7 @@
+$primary:           #37a000;                                    // Primary color for buttons (alt)
+$primarytext:       desaturate(lighten($primary, 50%), 18%);    // Text on primary color bg
+
+$secondary:         desaturate(lighten($primary, 40%), 21%);    // Secondary buttons
+$secondarytext:     desaturate(darken($secondary, 60%), 21%);
+$subtext:           #777;
+$ratingColor:       #ffb400;

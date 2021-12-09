@@ -1,0 +1,19 @@
+{
+  "name": "mahbubur/classified-listing",
+  "authors": [
+    {
+      "name": "Md. Mahbubur rahman",
+      "email": "mahbubur001@gmail.com"
+    }
+  ],
+  "require": {
+    "pelago/emogrifier": "^3.1",
+    "ext-json": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Rtcl\\": "app"
+    }
+  },
+  "description": ""
+}

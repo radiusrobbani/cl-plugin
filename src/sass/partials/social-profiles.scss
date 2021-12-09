@@ -1,0 +1,22 @@
+.rtcl-social-profile-wrap {
+    display: flex;
+    margin: 20px 0 15px;
+    padding: 0 10px;
+    
+    .rtcl-social-profile-label {
+        text-transform: capitalize;
+        font-size: 16px;
+        margin-right: 10px;
+        font-weight: bold;
+    }
+    
+    .rtcl-social-profiles {
+        display: flex;
+        gap: 10px;
+        flex-wrap: wrap;
+        
+        a {
+            display: inline-block;
+        }
+    }
+}

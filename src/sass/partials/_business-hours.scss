@@ -1,0 +1,235 @@
+#rtcl-bhs-holder {
+    position: relative;
+    
+    .form-check-input {
+        appearance: auto;
+        max-width: 15px;
+        max-height: 15px;
+        
+        &:focus {
+            outline: none;
+        }
+    }
+    
+    .form-check {
+        padding-left: 1.25rem;
+        line-height: 1;
+    }
+    
+    .form-check-label {
+        line-height: 1.5rem;
+        cursor: pointer;
+    }
+    
+    [for="rtcl-active-bhs"],
+    [for="rtcl-active-special-bhs"] {
+        font-weight: bold;
+    }
+    
+    //#rtcl-bhs-wrap,
+    //#rtcl-special-bhs-wrap,
+    #rtcl-special-bhs-container {
+        display: none;
+    }
+    
+    #rtcl-special-bhs-wrap {
+        position: relative;
+        margin-top: 25px;
+    }
+    
+    input#rtcl-active-bhs, input#rtcl-active-special-bhs {
+        top: 0.23rem;
+        left: 0;
+        margin: 0;
+        position: absolute;
+    }
+    
+    //input[type=checkbox]#rtcl-active-bhs:checked + #rtcl-bhs-wrap,
+    //input[type=checkbox]#rtcl-active-bhs:checked + #rtcl-bhs-wrap + #rtcl-special-bhs-wrap,
+    input[type=checkbox]#rtcl-active-special-bhs:checked + #rtcl-special-bhs-container {
+        display: block;
+    }
+}
+
+.rtcl-bhs {
+    display: flex;
+    flex-direction: column;
+    
+    .rtcl-bhs-btn {
+        cursor: pointer;
+        color: #fff !important;
+        border-radius: 50%;
+        width: 20px;
+        height: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        
+        &:hover {
+            opacity: .6;
+        }
+        
+        &.rtcl-icon-plus {
+            background-color: green;
+        }
+        
+        &.rtcl-icon-minus {
+            background-color: #dc3545;
+        }
+    }
+    
+    .rtcl-bh {
+        display: flex;
+        
+        .rtcl-day-label {
+            flex: 0 0 120px;
+            font-weight: 500;
+        }
+        
+        + .rtcl-bh {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #ced4da;
+        }
+    }
+    
+    .rtcl-day-actions {
+        position: relative;
+        
+        .form-check-input {
+            position: absolute;
+            top: .3rem;
+            margin: 0;
+            left: .1rem;
+            
+            &.check-time-slot {
+                top: 1.8rem;
+            }
+        }
+    }
+    
+    .day-time-slot,
+    .check-time-slot,
+    .time-slots {
+        display: none;
+    }
+    
+    .time-slots {
+        max-width: 330px;
+    }
+    
+    input[type=checkbox].check-open:checked + .day-time-slot,
+    input[type=checkbox].check-open:checked + .day-time-slot + input[type=checkbox].check-time-slot,
+    input[type=checkbox].check-time-slot:checked + .time-slots {
+        display: block;
+    }
+    
+    .time-slot {
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        
+        .time-slot-action {
+            display: flex;
+            flex-direction: column;
+            justify-content: space-around;
+            
+            a:focus {
+                box-shadow: none;
+            }
+        }
+        
+        .time-slot-start, .time-slot-end {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        &:first-child {
+            .time-slot-end, .time-slot-start {
+                &:before {
+                    font-weight: bold;
+                }
+            }
+            
+            .time-slot-start {
+                &:before {
+                    content: "Start";
+                }
+            }
+            
+            .time-slot-end {
+                &:before {
+                    content: "End";
+                }
+            }
+        }
+        
+        + .time-slot {
+            margin-top: 10px;
+            padding-top: 10px;
+            border-top: 1px solid #ced4da;
+        }
+        
+    }
+    
+    input {
+        &.bhs-datepicker,
+        &.bhs-timepicker {
+            border: 2px solid #ccc;
+            border-radius: 5px;
+            box-shadow: none;
+            background-color: #eee;
+            max-width: 8em;
+        }
+        
+        &.bhs-datepicker {
+            max-width: 10em;
+        }
+    }
+    
+    .rtcl-special-bh {
+        display: flex;
+        
+        .rtcl-special-bh-actions {
+            flex: 1;
+            margin: 0 15px;
+            max-width: 400px;
+        }
+    }
+}
+
+/* single listing Front end */
+.rtclbh-separator {
+    text-align: center;
+}
+
+.rtclbh-block {
+    
+    .rtclbh-status {
+        margin: 0 0 1.25rem 0;
+        font-weight: 500;
+    }
+    
+    .rtclbh-status-open {
+        color: green;
+    }
+    
+    .rtclbh-status-closed {
+        color: red;
+    }
+    
+    .rtclbh-active {
+        &.rtclbh-opened td,
+        &.rtclbh-closed td {
+            font-weight: 500;
+        }
+        
+        &.rtclbh-opened td {
+            color: green;
+        }
+        
+        &.rtclbh-closed td {
+            color: red;
+        }
+    }
+}

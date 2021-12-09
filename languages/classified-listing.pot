@@ -1,0 +1,5806 @@
+# Copyright (C) 2021 Classified Listing
+# This file is distributed under the same license as the Classified Listing package.
+msgid ""
+msgstr ""
+"Project-Id-Version: Classified Listing\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-KeywordsList: __;_e;_ex:1,2c;_n:1,2;_n_noop:1,2;_nx:1,2,4c;_nx_noop:1,2,3c;_x:1,2c;esc_attr__;esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#. translators: %s: $key Key to check
+#: ../app/Abstracts/Data.php:303
+msgid "Generic add/update/get meta methods should not be used for internal meta data, including \"%s\". Use getters and setters."
+msgstr ""
+
+#: ../app/Controllers/BusinessHoursController.php:153
+msgid "Business Hours"
+msgstr ""
+
+#: ../app/Controllers/BusinessHoursController.php:245, ../app/Controllers/Admin/ScriptLoader.php:97
+msgid "Server Error!!"
+msgstr ""
+
+#: ../app/Controllers/BusinessHoursController.php:246, ../app/Controllers/Admin/ScriptLoader.php:345
+msgid "Are you sure to delete?"
+msgstr ""
+
+#: ../app/Controllers/BusinessHoursController.php:251, ../app/Controllers/BusinessHoursController.php:256
+msgid "Apply"
+msgstr ""
+
+#: ../app/Controllers/BusinessHoursController.php:252, ../app/Controllers/BusinessHoursController.php:257
+msgid "Clear"
+msgstr ""
+
+#: ../app/Controllers/BusinessHoursController.php:477, ../templates/listing-form/business-hours.php:43, ../templates/listing-form/business-hours.php:207
+msgid "Open"
+msgstr ""
+
+#: ../app/Controllers/BusinessHoursController.php:478, ../app/Resources/Gallery.php:497
+msgid "Close"
+msgstr ""
+
+#: ../app/Controllers/BusinessHoursController.php:479, ../templates/listing/business-hours.php:102
+msgid "Open Today (24 Hours)"
+msgstr ""
+
+#: ../app/Controllers/BusinessHoursController.php:480, ../templates/listing/business-hours.php:88
+msgid "Closed Today"
+msgstr ""
+
+#: ../app/Controllers/BusinessHoursController.php:481, ../templates/listing/business-hours.php:26
+msgid "We are currently open."
+msgstr ""
+
+#: ../app/Controllers/BusinessHoursController.php:482, ../templates/listing/business-hours.php:28
+msgid "Sorry, we are currently closed."
+msgstr ""
+
+#: ../app/Controllers/FormHandler.php:60, ../app/Controllers/FormHandler.php:57
+msgid "Invalid order."
+msgstr ""
+
+#: ../app/Controllers/FormHandler.php:55
+msgid "Your order can no longer be cancelled. Please contact us if you need assistance."
+msgstr ""
+
+#: ../app/Controllers/FormHandler.php:48
+msgid "Order cancelled by customer."
+msgstr ""
+
+#: ../app/Controllers/FormHandler.php:50
+msgid "Your order was cancelled."
+msgstr ""
+
+#: ../app/Controllers/FormHandler.php:119, ../app/Controllers/Ajax/Checkout.php:46
+msgid "Order on"
+msgstr ""
+
+#: ../app/Controllers/FormHandler.php:141, ../app/Controllers/Ajax/Checkout.php:95, ../app/Controllers/Hooks/AppliedBothEndHooks.php:108
+msgid "Payment successfully made."
+msgstr ""
+
+#: ../app/Controllers/FormHandler.php:165
+msgid "This password reset key is for a different user account. Please log out and try again."
+msgstr ""
+
+#: ../app/Controllers/FormHandler.php:198, ../app/Controllers/FormHandler.php:202, ../app/Controllers/FormHandler.php:299, ../app/Helpers/Functions.php:3070, ../app/Helpers/Functions.php:3195
+msgid "Error:"
+msgstr ""
+
+#: ../app/Controllers/FormHandler.php:202
+msgid "Username is required."
+msgstr ""
+
+#: ../app/Controllers/FormHandler.php:292, ../app/Controllers/Ajax/PublicUser.php:179
+msgid "You have successfully registered on our website, Please check your email and click on the link, we sent a verification mail to verify your email address."
+msgstr ""
+
+#: ../app/Controllers/FormHandler.php:290, ../app/Controllers/Ajax/PublicUser.php:176
+msgid "You have successfully registered."
+msgstr ""
+
+#: ../app/Controllers/FormHandler.php:348
+msgid "Please enter your password."
+msgstr ""
+
+#: ../app/Controllers/FormHandler.php:352
+msgid "Passwords do not match."
+msgstr ""
+
+#: ../app/Controllers/GutenbergController.php:110, ../app/Controllers/Admin/AdminSettings.php:57, ../app/Controllers/Admin/RegisterPostType.php:148
+msgid "Classified Listing"
+msgstr ""
+
+#: ../app/Controllers/Query.php:696
+msgid "Promote your ad"
+msgstr ""
+
+#: ../app/Controllers/Query.php:699
+msgid "Order received"
+msgstr ""
+
+#: ../app/Controllers/Query.php:702
+msgid "Order failed"
+msgstr ""
+
+#: ../app/Controllers/Query.php:705
+msgid "Payments Orders"
+msgstr ""
+
+#: ../app/Controllers/Query.php:708, ../app/Helpers/Functions.php:2541, ../views/settings/advanced-settings.php:89
+msgid "My Listings"
+msgstr ""
+
+#: ../app/Controllers/Query.php:711
+msgid "My Favourites Listings"
+msgstr ""
+
+#: ../app/Controllers/Query.php:714
+msgid "Chat"
+msgstr ""
+
+#: ../app/Controllers/Query.php:717, ../app/Helpers/Functions.php:2544
+msgid "Account details"
+msgstr ""
+
+#: ../app/Controllers/Query.php:720
+msgid "Verify your account"
+msgstr ""
+
+#: ../app/Controllers/Query.php:723
+msgid "Lost password"
+msgstr ""
+
+#: ../app/Controllers/SocialProfilesController.php:120, ../templates/listing-form/social-profiles.php:26
+msgid "Social Profiles"
+msgstr ""
+
+#: ../app/Emails/ContactEmailToAdmin.php:27
+msgid "[{site_title}] Contact request"
+msgstr ""
+
+#: ../app/Emails/ContactEmailToAdmin.php:37
+msgid "An email is Received."
+msgstr ""
+
+#: ../app/Emails/ListingContactEmailToAdmin.php:32, ../app/Emails/ListingContactEmailToOwner.php:32, ../app/Helpers/Install.php:206, ../views/settings/email-settings.php:248
+msgid "[{site_title}] Contact via \"{listing_title}\""
+msgstr ""
+
+#: ../app/Emails/ListingContactEmailToAdmin.php:41
+msgid "An email is posed by user."
+msgstr ""
+
+#: ../app/Emails/ListingContactEmailToOwner.php:41, ../app/Helpers/Install.php:207, ../views/settings/email-settings.php:253
+msgid "Thank you for mail"
+msgstr ""
+
+#: ../app/Emails/ListingExpiredEmailToAdmin.php:29
+msgid "[{site_title}] Listing \"{listing_title}\" is expired"
+msgstr ""
+
+#: ../app/Emails/ListingExpiredEmailToAdmin.php:37
+msgid "Listing is expired"
+msgstr ""
+
+#: ../app/Emails/ListingExpiredEmailToAdmin.php:63, ../app/Emails/ListingExpiredEmailToOwner.php:66, ../app/Emails/ListingRenewalEmailToOwner.php:70, ../app/Emails/ListingRenewalReminderEmailToOwner.php:66, ../app/Controllers/Admin/Meta/ListingMetaColumn.php:60, ../app/Controllers/Admin/Meta/ListingSubmitBoxMice.php:44, ../templates/myaccount/my-listings.php:71
+msgid "Never Expires"
+msgstr ""
+
+#: ../app/Emails/ListingExpiredEmailToOwner.php:31, ../app/Helpers/Install.php:197, ../views/settings/email-settings.php:186
+msgid "[{site_title}] {listing_title} - Expiration notice"
+msgstr ""
+
+#: ../app/Emails/ListingExpiredEmailToOwner.php:40, ../app/Emails/ListingRenewalEmailToOwner.php:42, ../app/Helpers/Install.php:196, ../app/Helpers/Install.php:198, ../views/settings/email-settings.php:177, ../views/settings/email-settings.php:191
+msgid "Expiration notice"
+msgstr ""
+
+#: ../app/Emails/ListingModerationEmailToOwner.php:32
+msgid "[{site_name}] Your listing need to be improved"
+msgstr ""
+
+#: ../app/Emails/ListingModerationEmailToOwner.php:41
+msgid "Your listing need to be improved"
+msgstr ""
+
+#: ../app/Emails/ListingPublishedEmailToOwner.php:34, ../app/Helpers/Install.php:192, ../views/settings/email-settings.php:152
+msgid "[{site_title}] Listing \"{listing_title}\" is published"
+msgstr ""
+
+#: ../app/Emails/ListingPublishedEmailToOwner.php:43, ../app/Helpers/Install.php:193, ../views/settings/email-settings.php:157
+msgid "Your listing is published"
+msgstr ""
+
+#: ../app/Emails/ListingRenewalEmailToOwner.php:33, ../app/Helpers/Install.php:195, ../views/settings/email-settings.php:172
+msgid "[{site_name}] {listing_title} - Expiration notice"
+msgstr ""
+
+#: ../app/Emails/ListingRenewalReminderEmailToOwner.php:31, ../app/Helpers/Install.php:200, ../views/settings/email-settings.php:206
+msgid "[{site_title}] {listing_title} - Renewal reminder"
+msgstr ""
+
+#: ../app/Emails/ListingRenewalReminderEmailToOwner.php:40, ../app/Helpers/Install.php:201, ../views/settings/email-settings.php:211
+msgid "Renewal reminder"
+msgstr ""
+
+#: ../app/Emails/ListingSubmittedEmailToAdmin.php:30
+msgid "[{site_title}] New Listing received"
+msgstr ""
+
+#: ../app/Emails/ListingSubmittedEmailToAdmin.php:38
+msgid "New Listing received"
+msgstr ""
+
+#: ../app/Emails/ListingSubmittedEmailToOwner.php:33, ../app/Helpers/Install.php:190, ../views/settings/email-settings.php:138
+msgid "[{site_title}] Listing \"{listing_title}\" is received"
+msgstr ""
+
+#: ../app/Emails/ListingSubmittedEmailToOwner.php:42, ../app/Helpers/Install.php:191, ../views/settings/email-settings.php:143
+msgid "Your listing is received"
+msgstr ""
+
+#: ../app/Emails/ListingUpdateEmailToAdmin.php:29
+msgid "[{site_title}] Listing \"{listing_title}\" is updated"
+msgstr ""
+
+#: ../app/Emails/ListingUpdateEmailToAdmin.php:37
+msgid "Listing is updated"
+msgstr ""
+
+#: ../app/Emails/OrderCompletedEmailToAdmin.php:31, ../app/Emails/OrderCompletedEmailToCustomer.php:30, ../app/Helpers/Install.php:204, ../views/settings/email-settings.php:234
+msgid "[{site_title}] : #{order_number} Order is completed."
+msgstr ""
+
+#: ../app/Emails/OrderCompletedEmailToAdmin.php:40, ../app/Emails/OrderCompletedEmailToCustomer.php:39, ../app/Helpers/Install.php:205, ../views/settings/email-settings.php:239
+msgid "Payment is completed: #{order_number}"
+msgstr ""
+
+#: ../app/Emails/OrderCreatedEmailToAdmin.php:32
+msgid "[{site_title}]: New order #{order_number}"
+msgstr ""
+
+#: ../app/Emails/OrderCreatedEmailToAdmin.php:41, ../app/Emails/OrderCreatedEmailToCustomer.php:41, ../app/Helpers/Install.php:203, ../views/settings/email-settings.php:225
+msgid "New Order: #{order_number}"
+msgstr ""
+
+#: ../app/Emails/OrderCreatedEmailToCustomer.php:32, ../app/Helpers/Install.php:202, ../views/settings/email-settings.php:220
+msgid "[{site_title}] #{order_number} Thank you for your order"
+msgstr ""
+
+#: ../app/Emails/ReportAbuseEmailToAdmin.php:29
+msgid "[{site_title}] Report Abuse via \"{listing_title}\""
+msgstr ""
+
+#: ../app/Emails/ReportAbuseEmailToAdmin.php:37
+msgid "Report Abuse For \"{listing_title}\""
+msgstr ""
+
+#: ../app/Emails/UserNewRegistrationEmailToAdmin.php:29
+msgid "[{site_title}] New User is registered"
+msgstr ""
+
+#: ../app/Emails/UserNewRegistrationEmailToAdmin.php:38
+msgid "New user is registered"
+msgstr ""
+
+#: ../app/Emails/UserNewRegistrationEmailToUser.php:30
+msgid "Registration successful at [{site_title}] "
+msgstr ""
+
+#: ../app/Emails/UserNewRegistrationEmailToUser.php:39
+msgid "Registration successful"
+msgstr ""
+
+#: ../app/Emails/UserResetPasswordEmailToUser.php:28
+msgid "[{site_title}] Reset your password"
+msgstr ""
+
+#: ../app/Emails/UserResetPasswordEmailToUser.php:36
+msgid "Reset your password"
+msgstr ""
+
+#: ../app/Helpers/Breadcrumb.php:110
+msgid "Error 404"
+msgstr ""
+
+#. translators: %s: tag name
+#: ../app/Helpers/Breadcrumb.php:276
+msgid "Posts tagged &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s: author name
+#: ../app/Helpers/Breadcrumb.php:319
+msgid "Author: %s"
+msgstr ""
+
+#. translators: %s: search term
+#: ../app/Helpers/Breadcrumb.php:359
+msgid "Search results for &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %d: page number
+#. translators: %d: Page number.
+#: ../app/Helpers/Breadcrumb.php:369, ../app/Controllers/Hooks/TemplateLoader.php:285
+msgid "Page %d"
+msgstr ""
+
+#: ../app/Helpers/Cache.php:63
+msgid "All cache has been removed."
+msgstr ""
+
+#. translators: 1: price from 2: price to
+#: ../app/Helpers/Functions.php:614
+msgctxt "Price range: from-to"
+msgid "<div class=\"rtcl-price-range\">%1$s &ndash; %2$s</div>"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:1069, ../app/Controllers/Admin/RegisterPostType.php:34, ../app/Controllers/Admin/Meta/AddTermMetaField.php:80
+msgid "All Categories"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:1069, ../app/Controllers/Admin/RegisterPostType.php:79
+msgid "All Locations"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:1154, ../app/Widgets/Filter.php:215
+msgid "Show More"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:1268, ../app/Helpers/Text.php:98, ../templates/listing-form/category.php:52, ../templates/widgets/search/vertical.php:51, ../templates/widgets/search/vertical.php:61
+msgid "Select a category"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:1692
+msgid "Select an Option"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:2306, ../app/Models/Listing.php:842
+msgid "%s ago"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:2540
+msgid "Dashboard"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:2542, ../views/settings/advanced-settings.php:94
+msgid "Favourites"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:2543, ../app/Controllers/Admin/RegisterPostType.php:279, ../views/settings/advanced-settings.php:104
+msgid "Payments"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:2545, ../views/settings/advanced-settings.php:114
+msgid "Logout"
+msgstr ""
+
+#. translators: %s template
+#: ../app/Helpers/Functions.php:2707
+msgid "%s does not exist."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:2900, ../app/Helpers/Functions.php:2921, ../app/Helpers/Functions.php:2930, ../app/Helpers/Functions.php:2954, ../app/Helpers/Functions.php:2967, ../app/Helpers/Functions.php:2989
+msgid "This function should not be called before rtcl_init."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:3118
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:3122
+msgid "An account is already registered with your email address. Please log in."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:3132
+msgid "Please enter a valid account username."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:3136
+msgid "An account is already registered with that username. Please choose another."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:3141
+msgid "Please enter your first name."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:3144
+msgid "Please enter your last name."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:3149
+msgid "Please enter your phone."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:3152
+msgid "An account is already registered with your phone number. Please log in."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:3164
+msgid "Please enter an account password."
+msgstr ""
+
+#: ../app/Helpers/Functions.php:3195
+msgid "Couldn&#8217;t register you&hellip; please contact us if you continue to have problems."
+msgstr ""
+
+#. translators: %s: rating
+#: ../app/Helpers/Functions.php:3765
+msgid "Rated %s out of 5"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:3762, ../app/Helpers/Functions.php:3785
+msgid "Rated %1$s out of 5 based on %2$s customer rating"
+msgid_plural "Rated %1$s out of 5 based on %2$s customer ratings"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Helpers/Functions.php:4036
+msgid "M j, Y @ H:i"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:4052, ../app/Resources/Options.php:1715, ../supports/custom_price_unit.php:27
+msgid "Month"
+msgstr ""
+
+#. translators: 1: month number (01, 02, etc.), 2: month abbreviation
+#: ../app/Helpers/Functions.php:4058
+msgid "%1$s-%2$s"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:4062, ../app/Resources/Options.php:1723
+msgid "Day"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:4063, ../app/Resources/Options.php:1711
+msgid "Year"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:4064, ../app/Resources/Options.php:1727
+msgid "Hour"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:4065
+msgid "Minute"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:4068
+msgid "Expired on: <b>%1$s</b>"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:4072, ../app/Controllers/Hooks/TemplateHooks.php:344
+msgid "Edit"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:4073
+msgid "Edit date and time"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:4076
+msgid "Date and time"
+msgstr ""
+
+#. translators: 1: month, 2: day, 3: year, 4: hour, 5: minute
+#: ../app/Helpers/Functions.php:4079, ../app/Controllers/Admin/ScriptLoader.php:439
+msgid "%1$s %2$s, %3$s @ %4$s:%5$s"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:4103
+msgid "OK"
+msgstr ""
+
+#: ../app/Helpers/Functions.php:4105, ../app/Resources/Gallery.php:433, ../app/Resources/Gallery.php:433
+msgid "Cancel"
+msgstr ""
+
+#: ../app/Helpers/Install.php:102, ../views/settings/general-settings.php:115
+msgid "State"
+msgstr ""
+
+#: ../app/Helpers/Install.php:103, ../app/Helpers/Text.php:32, ../app/Helpers/Text.php:39, ../views/settings/general-settings.php:120
+msgid "City"
+msgstr ""
+
+#: ../app/Helpers/Install.php:104, ../views/settings/general-settings.php:125
+msgid "Town"
+msgstr ""
+
+#: ../app/Helpers/Install.php:113, ../app/Controllers/Hooks/TemplateHooks.php:553, ../views/settings/moderation-settings.php:35
+msgid "New"
+msgstr ""
+
+#: ../app/Helpers/Install.php:115
+msgid "Popular"
+msgstr ""
+
+#: ../app/Helpers/Install.php:116, ../app/Resources/Gallery.php:194, ../app/Resources/Gallery.php:271, ../app/Resources/Options.php:271, ../app/Controllers/Hooks/TemplateHooks.php:534, ../app/Controllers/Admin/Meta/ListingMetaColumn.php:24, ../views/settings/moderation-settings.php:41
+msgid "Featured"
+msgstr ""
+
+#: ../app/Helpers/Install.php:158, ../app/Gateways/Offline/GatewayOffline.php:48
+msgid "Direct Bank Transfer"
+msgstr ""
+
+#: ../app/Helpers/Install.php:159, ../app/Gateways/Offline/GatewayOffline.php:56
+msgid "Make your payment directly in our bank account. Please use your Order ID as payment reference. Your order won't get approved until the funds have cleared in our account."
+msgstr ""
+
+#: ../app/Helpers/Install.php:161, ../app/Gateways/Offline/GatewayOffline.php:63
+msgid ""
+"Make your payment directly in our bank account. Please use your Order ID as payment reference. Your order won't get approved until the funds have cleared in our account.\n"
+"Account details :\n"
+"		\n"
+"Account Name : YOUR ACCOUNT NAME\n"
+"Account Number : YOUR ACCOUNT NUMBER\n"
+"Bank Name : YOUR BANK NAME\n"
+"		\n"
+"If we don't receive your payment within 48 hrs, we will cancel the order."
+msgstr ""
+
+#: ../app/Helpers/Install.php:237, ../app/Traits/UtilityTrait.php:302, ../views/settings/advanced-settings.php:28
+msgctxt "slug"
+msgid "listing-category"
+msgstr ""
+
+#: ../app/Helpers/Install.php:238, ../app/Traits/UtilityTrait.php:303, ../views/settings/advanced-settings.php:34
+msgctxt "slug"
+msgid "listing-location"
+msgstr ""
+
+#: ../app/Helpers/Text.php:11
+msgid "Fixed"
+msgstr ""
+
+#: ../app/Helpers/Text.php:15
+msgid "Negotiable"
+msgstr ""
+
+#: ../app/Helpers/Text.php:19
+msgid "On Call"
+msgstr ""
+
+#: ../app/Helpers/Text.php:25
+msgid "States"
+msgstr ""
+
+#: ../app/Helpers/Text.php:45
+msgid "Add to Favourites"
+msgstr ""
+
+#: ../app/Helpers/Text.php:49
+msgid "Remove from Favourites"
+msgstr ""
+
+#: ../app/Helpers/Text.php:53, ../templates/listing/actions.php:53
+msgid "Report Abuse"
+msgstr ""
+
+#: ../app/Helpers/Text.php:62
+msgid "Your personal data will be used to support your experience throughout this website, to manage access to your account, and for other purposes described in our %s."
+msgstr ""
+
+#: ../app/Helpers/Text.php:66
+msgid "Your personal data will be used to process your order, support your experience throughout this website, and for other purposes described in our %s."
+msgstr ""
+
+#: ../app/Helpers/Text.php:70
+msgid "I have read and agree to the website %s."
+msgstr ""
+
+#: ../app/Helpers/Text.php:94, ../templates/listing-form/contact.php:138, ../templates/widgets/search/vertical.php:28, ../templates/widgets/search/vertical.php:38
+msgid "Select a location"
+msgstr ""
+
+#: ../app/Helpers/Text.php:102
+msgid "Message to Seller"
+msgstr ""
+
+#: ../app/Helpers/UploadHelper.php:78
+msgid "Invalid value."
+msgstr ""
+
+#: ../app/Models/Cart.php:132
+msgid "Get cart should not be called before the wp_loaded action."
+msgstr ""
+
+#: ../app/Models/DataStore.php:82, ../app/Models/DataStore.php:76, ../app/Models/DataStore.php:70
+msgid "Invalid data store."
+msgstr ""
+
+#: ../app/Models/Listing.php:1191
+msgid "Free!"
+msgstr ""
+
+#: ../app/Models/Payment.php:274
+msgid "Invalid currency code"
+msgstr ""
+
+#. translators: 1: first name 2: last name
+#: ../app/Models/Payment.php:315
+msgctxt "full name"
+msgid "%1$s %2$s"
+msgstr ""
+
+#: ../app/Models/Payment.php:470, ../templates/checkout/pricing-info.php:22
+msgid "ID#"
+msgstr ""
+
+#: ../app/Models/Payment.php:475
+msgid "Pricing "
+msgstr ""
+
+#: ../app/Models/Payment.php:480
+msgid "Visible "
+msgstr ""
+
+#: ../app/Models/Payment.php:483, ../templates/checkout/promotions.php:51
+msgid "%s Day"
+msgid_plural "%s Days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Models/Payment.php:492, ../templates/checkout/pricing-info.php:46
+msgid "Amount "
+msgstr ""
+
+#: ../app/Models/PaymentGateways.php:44, ../app/Models/PaymentGateways.php:53, ../app/Traits/SingletonTrait.php:39, ../app/Traits/SingletonTrait.php:46
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: ../app/Models/Roles.php:25
+msgctxt "User role"
+msgid "Listing manager"
+msgstr ""
+
+#: ../app/Models/RtclCFGField.php:202
+msgid "Untitled"
+msgstr ""
+
+#: ../app/Models/RtclCFGField.php:216
+msgid "Toggle for Meta field"
+msgstr ""
+
+#: ../app/Models/RtclCFGField.php:242
+msgid "Are you sure?"
+msgstr ""
+
+#: ../app/Models/RtclCFGField.php:242
+msgid "Remove field"
+msgstr ""
+
+#: ../app/Models/RtclCFGField.php:263
+msgid "Display text"
+msgstr ""
+
+#: ../app/Models/RtclCFGField.php:264
+msgid "Value"
+msgstr ""
+
+#: ../app/Models/RtclCFGField.php:265
+msgid "Default"
+msgstr ""
+
+#: ../app/Models/RtclCFGField.php:307
+msgid "No Default"
+msgstr ""
+
+#: ../app/Models/RtclCFGField.php:311
+msgid "Add Option"
+msgstr ""
+
+#: ../app/Models/RtclCFGField.php:372
+msgid "Yes"
+msgstr ""
+
+#: ../app/Models/RtclCFGField.php:373
+msgid "No"
+msgstr ""
+
+#: ../app/Models/RtclCFGField.php:793
+msgid "Show this field if"
+msgstr ""
+
+#: ../app/Models/RtclCFGField.php:793, ../app/Models/RtclCFGField.php:882
+msgid "or"
+msgstr ""
+
+#: ../app/Models/RtclCFGField.php:869
+msgid "and"
+msgstr ""
+
+#: ../app/Models/RtclCFGField.php:884
+msgid "Add rule group"
+msgstr ""
+
+#: ../app/Models/RtclEmails.php:158
+msgid "Payment Option "
+msgstr ""
+
+#: ../app/Models/RtclEmails.php:162
+msgid "Features "
+msgstr ""
+
+#: ../app/Models/RtclEmails.php:165, ../templates/checkout/pricing-info.php:35
+msgid "Days"
+msgstr ""
+
+#: ../app/Models/SettingsAPI.php:88, ../app/Controllers/Admin/AdminSettings.php:308
+msgid "Action failed. Please refresh the page and retry."
+msgstr ""
+
+#: ../app/Models/SettingsAPI.php:106, ../app/Controllers/Admin/AdminSettings.php:322
+msgid "Your settings have been saved."
+msgstr ""
+
+#: ../app/Models/SettingsAPI.php:672, ../app/Controllers/Admin/Meta/AddTermMetaField.php:357, ../app/Controllers/Admin/Meta/AddTermMetaField.php:469
+msgid "Add Image"
+msgstr ""
+
+#: ../app/Models/SettingsAPI.php:674, ../app/Controllers/Admin/Meta/AddTermMetaField.php:360, ../app/Controllers/Admin/Meta/AddTermMetaField.php:472
+msgid "Remove Image"
+msgstr ""
+
+#: ../app/Models/SettingsAPI.php:1151
+msgid "Select all"
+msgstr ""
+
+#: ../app/Models/SettingsAPI.php:1153
+msgid "Select none"
+msgstr ""
+
+#: ../app/Models/SettingsAPI.php:1369, ../app/Resources/Options.php:568, ../app/Controllers/Admin/Meta/AddTermMetaField.php:366, ../app/Controllers/Admin/Meta/AddTermMetaField.php:482
+msgid "Select one"
+msgstr ""
+
+#: ../app/Models/WidgetFields.php:180
+msgid "Select a Location"
+msgstr ""
+
+#: ../app/Models/WidgetFields.php:216
+msgid "Select a Category"
+msgstr ""
+
+#: ../app/Resources/FieldGroup.php:19
+msgid "Where to include this Field Group"
+msgstr ""
+
+#: ../app/Resources/FieldGroup.php:29
+msgid "This Post Field Group is used with:"
+msgstr ""
+
+#: ../app/Resources/FieldGroup.php:35
+msgid "For all Categories"
+msgstr ""
+
+#: ../app/Resources/FieldGroup.php:40
+msgid "For Selected Categories"
+msgstr ""
+
+#: ../app/Resources/FieldGroup.php:47, ../app/Resources/FieldGroup.php:49, ../app/Resources/FieldGroup.php:62, ../app/Resources/FieldGroup.php:64
+msgid "Add New Field"
+msgstr ""
+
+#: ../app/Resources/FieldGroup.php:48, ../app/Resources/FieldGroup.php:63
+msgid "Please Wait, Loading…"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:49
+msgid "Allowed Files"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:75
+msgid "Drop files here to add them."
+msgstr ""
+
+#: ../app/Resources/Gallery.php:77
+msgid "Browse files ..."
+msgstr ""
+
+#: ../app/Resources/Gallery.php:85
+msgid "Image is required."
+msgstr ""
+
+#: ../app/Resources/Gallery.php:89
+msgid "<p>Recommended image size to (%dx%d)px</p>"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:94
+msgid "<p>Image maximum size %s.</p>"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:98
+msgid "<p>Allowed image type (%s).</p>"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:102
+msgid "<p>You can upload up to %d images.</p>"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:202
+msgid "Edit File"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:205
+msgid "Delete File"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:217
+msgid "Attachment Details"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:261
+msgid "Download File"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:276
+msgid "Use this image as main image"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:281, ../app/Resources/Options.php:14, ../app/Resources/Options.php:45, ../app/Resources/Options.php:148, ../app/Resources/Options.php:191, ../app/Gateways/Offline/GatewayOffline.php:45, ../app/Gateways/Paypal/GatewayPaypal.php:291, ../templates/listing-form/information.php:36, ../views/settings/general-settings.php:60, ../views/widgets/categories.php:2
+msgid "Title"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:286, ../app/Resources/Options.php:1844, ../app/Resources/PricingOptions.php:75, ../app/Gateways/Offline/GatewayOffline.php:51, ../app/Gateways/Paypal/GatewayPaypal.php:297, ../templates/checkout/promotions.php:20, ../templates/listing-form/information.php:133
+msgid "Description"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:295
+msgid "Update Options"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:306
+msgid "Preview"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:324, ../app/Controllers/Admin/ScriptLoader.php:84
+msgid "Edit Image"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:326
+msgid "Create thumbnail from full size image."
+msgstr ""
+
+#: ../app/Resources/Gallery.php:326
+msgid "Create Image"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:337
+msgid "File name:"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:343
+msgid "File type:"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:349
+msgid "Uploaded on:"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:356
+msgid "File size:"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:362
+msgid "Dimensions:"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:368
+msgid "Length:"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:394
+msgid "Image Manipulation"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:396
+msgid "Crop"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:399
+msgid "Rotate 90 degrees"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:402
+msgid "Rotate -90 degrees"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:405
+msgid "Flip Vertically"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:408
+msgid "Flip Horizontally"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:411
+msgid "Undo"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:417
+msgid "Image Size"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:424
+msgid "Scale"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:428
+msgid "Actions"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:431
+msgid "Save Image"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:431
+msgid "Save"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:436
+msgid "Restore original image"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:436
+msgid "Restore"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:447
+msgid "Apply changes to all image sizes"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:461
+msgid "Original size:"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:463
+msgid "Current size:"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:466
+msgid "Recommended size:"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:471
+msgid "Zoom:"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:474
+msgid "Selection:"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:512
+msgid "Gallery - Full Size"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:513
+msgid "Image in original size - used on classified details page in the gallery."
+msgstr ""
+
+#: ../app/Resources/Gallery.php:516
+msgid "Gallery - Slider"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:517
+msgid "Image resized to %d x %d - used in the images slider on classified details page."
+msgstr ""
+
+#: ../app/Resources/Gallery.php:520
+msgid "Listing Thumbnail"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:521
+msgid "Image resized to %d x %d - used on the classifieds list."
+msgstr ""
+
+#: ../app/Resources/Gallery.php:524, ../views/settings/misc-settings.php:30
+msgid "Gallery Thumbnail"
+msgstr ""
+
+#: ../app/Resources/Gallery.php:525
+msgid "Image resized to %d x %d - the image visible in upload preview."
+msgstr ""
+
+#: ../app/Resources/ListingDetails.php:23
+msgid "Send Email to User"
+msgstr ""
+
+#: ../app/Resources/ListingDetails.php:28
+msgid "Notification by Moderator"
+msgstr ""
+
+#: ../app/Resources/ListingDetails.php:31
+msgid "Notification by Visitor"
+msgstr ""
+
+#: ../app/Resources/ListingDetails.php:33
+msgid "Abuse Report by Visitor"
+msgstr ""
+
+#: ../app/Resources/ListingDetails.php:51
+msgid "Listing Type"
+msgstr ""
+
+#: ../app/Resources/ListingDetails.php:54, ../templates/listing-form/category.php:23, ../templates/listing-form/category.php:33
+msgid "Select a type"
+msgstr ""
+
+#: ../app/Resources/ListingDetails.php:68, ../app/Widgets/Filter.php:158, ../app/Controllers/Admin/ScriptLoader.php:349, ../templates/listing-form/category.php:58
+msgid "Category"
+msgstr ""
+
+#: ../app/Resources/ListingDetails.php:124, ../templates/listing-form/information.php:60
+msgid "Pricing:"
+msgstr ""
+
+#: ../app/Resources/ListingDetails.php:147, ../app/Resources/Options.php:1842, ../templates/listing-form/information.php:84
+msgid "Price Type"
+msgstr ""
+
+#: ../app/Resources/ListingDetails.php:165, ../app/Resources/Options.php:47, ../app/Resources/Options.php:1073, ../app/Resources/Options.php:1829, ../app/Resources/Options.php:1843, ../app/Resources/OrderOptions.php:127, ../app/Resources/PricingOptions.php:43, ../app/Controllers/Admin/Meta/PricingMetaColumn.php:38, ../templates/listing-form/information.php:102, ../views/settings/general-settings.php:62
+msgid "Price"
+msgstr ""
+
+#: ../app/Resources/ListingDetails.php:176, ../templates/listing-form/information.php:112
+msgid "Max Price"
+msgstr ""
+
+#: ../app/Resources/Options.php:18
+msgid "Filter by Location"
+msgstr ""
+
+#: ../app/Resources/Options.php:22
+msgid "Filter by Category"
+msgstr ""
+
+#: ../app/Resources/Options.php:26
+msgid "Filter by ad Type"
+msgstr ""
+
+#: ../app/Resources/Options.php:29, ../app/Controllers/Admin/Meta/ListingMetaColumn.php:127
+msgid "Featured only"
+msgstr ""
+
+#: ../app/Resources/Options.php:30
+msgid "All Type"
+msgstr ""
+
+#: ../app/Resources/Options.php:34
+msgid "Related Listings"
+msgstr ""
+
+#: ../app/Resources/Options.php:38
+msgid "Limit / Listing per page(pagination)"
+msgstr ""
+
+#: ../app/Resources/Options.php:42, ../views/widgets/categories.php:29
+msgid "Order By"
+msgstr ""
+
+#: ../app/Resources/Options.php:46, ../views/settings/general-settings.php:61
+msgid "Date posted"
+msgstr ""
+
+#: ../app/Resources/Options.php:48, ../app/Resources/Options.php:1828, ../views/settings/general-settings.php:63
+msgid "Views count"
+msgstr ""
+
+#: ../app/Resources/Options.php:49
+msgid "Random"
+msgstr ""
+
+#: ../app/Resources/Options.php:53, ../app/Resources/OrderOptions.php:44, ../app/Controllers/Admin/Meta/AddTermMetaField.php:223, ../app/Controllers/Admin/Meta/AddTermMetaField.php:307, ../app/Controllers/Admin/Meta/AddTermMetaField.php:386, ../app/Controllers/Admin/Meta/AddTermMetaField.php:512, ../views/widgets/categories.php:49
+msgid "Order"
+msgstr ""
+
+#: ../app/Resources/Options.php:56, ../views/widgets/categories.php:54
+msgid "ASC"
+msgstr ""
+
+#: ../app/Resources/Options.php:57, ../views/widgets/categories.php:55
+msgid "DESC"
+msgstr ""
+
+#: ../app/Resources/Options.php:61
+msgid "Display Options"
+msgstr ""
+
+#: ../app/Resources/Options.php:65, ../app/Controllers/Admin/Meta/ListingSubmitBoxMice.php:66
+msgid "View"
+msgstr ""
+
+#: ../app/Resources/Options.php:69
+msgid "Grid"
+msgstr ""
+
+#: ../app/Resources/Options.php:70
+msgid "Slider"
+msgstr ""
+
+#: ../app/Resources/Options.php:75
+msgid "Number of columns / Items to display at slider"
+msgstr ""
+
+#: ../app/Resources/Options.php:81
+msgid "Number of items at Tab (Slider)"
+msgstr ""
+
+#: ../app/Resources/Options.php:87
+msgid "Number of items at Mobile (Slider)"
+msgstr ""
+
+#: ../app/Resources/Options.php:93
+msgid "Show Image"
+msgstr ""
+
+#: ../app/Resources/Options.php:98
+msgid "Image Position"
+msgstr ""
+
+#: ../app/Resources/Options.php:101, ../app/Controllers/Admin/Meta/ListingMetaColumn.php:25
+msgid "Top"
+msgstr ""
+
+#: ../app/Resources/Options.php:102, ../app/Resources/Options.php:298
+msgid "Left"
+msgstr ""
+
+#: ../app/Resources/Options.php:107
+msgid "Show Category"
+msgstr ""
+
+#: ../app/Resources/Options.php:112
+msgid "Show Location"
+msgstr ""
+
+#: ../app/Resources/Options.php:117
+msgid "Show Labels"
+msgstr ""
+
+#: ../app/Resources/Options.php:122
+msgid "Show Price"
+msgstr ""
+
+#: ../app/Resources/Options.php:127
+msgid "Show Date"
+msgstr ""
+
+#: ../app/Resources/Options.php:132
+msgid "Show User"
+msgstr ""
+
+#: ../app/Resources/Options.php:137
+msgid "Show Views"
+msgstr ""
+
+#: ../app/Resources/Options.php:152, ../app/Resources/Options.php:203
+msgid "Search by Category"
+msgstr ""
+
+#: ../app/Resources/Options.php:156, ../app/Resources/Options.php:207
+msgid "Search by Location"
+msgstr ""
+
+#: ../app/Resources/Options.php:160
+msgid "Search by ad Types"
+msgstr ""
+
+#: ../app/Resources/Options.php:164, ../app/Resources/Options.php:215
+msgid "Search by Price"
+msgstr ""
+
+#: ../app/Resources/Options.php:168
+msgid "Hide empty Category / Location"
+msgstr ""
+
+#: ../app/Resources/Options.php:172
+msgid "Show count for Category / Location"
+msgstr ""
+
+#: ../app/Resources/Options.php:176
+msgid "Ajax load for Category / Location to increase PageSpeed."
+msgstr ""
+
+#: ../app/Resources/Options.php:180
+msgid "All Categories / All Locations link"
+msgstr ""
+
+#: ../app/Resources/Options.php:195, ../app/Controllers/Admin/AdminSettings.php:339
+msgid "Style"
+msgstr ""
+
+#: ../app/Resources/Options.php:198
+msgid "Vertical"
+msgstr ""
+
+#: ../app/Resources/Options.php:199
+msgid "inline"
+msgstr ""
+
+#: ../app/Resources/Options.php:211
+msgid "Search by Types"
+msgstr ""
+
+#: ../app/Resources/Options.php:225, ../app/Resources/Options.php:1881
+msgid "Facebook"
+msgstr ""
+
+#: ../app/Resources/Options.php:226, ../app/Resources/Options.php:1882
+msgid "Twitter"
+msgstr ""
+
+#: ../app/Resources/Options.php:227
+msgid "Youtube"
+msgstr ""
+
+#: ../app/Resources/Options.php:228
+msgid "Instagram"
+msgstr ""
+
+#: ../app/Resources/Options.php:229
+msgid "LinkedIn"
+msgstr ""
+
+#: ../app/Resources/Options.php:230, ../app/Resources/Options.php:1884
+msgid "Pinterest"
+msgstr ""
+
+#: ../app/Resources/Options.php:231
+msgid "Reddit"
+msgstr ""
+
+#: ../app/Resources/Options.php:238
+msgid "A to Z ( title )"
+msgstr ""
+
+#: ../app/Resources/Options.php:239
+msgid "Z to A ( title )"
+msgstr ""
+
+#: ../app/Resources/Options.php:240
+msgid "Recently added ( latest )"
+msgstr ""
+
+#: ../app/Resources/Options.php:241
+msgid "Date added ( oldest )"
+msgstr ""
+
+#: ../app/Resources/Options.php:242
+msgid "Most viewed"
+msgstr ""
+
+#: ../app/Resources/Options.php:243
+msgid "Less viewed"
+msgstr ""
+
+#: ../app/Resources/Options.php:247
+msgid "Price ( low to high )"
+msgstr ""
+
+#: ../app/Resources/Options.php:248
+msgid "Price ( high to low )"
+msgstr ""
+
+#: ../app/Resources/Options.php:261
+msgid "Account"
+msgstr ""
+
+#: ../app/Resources/Options.php:262
+msgid "Regular submission"
+msgstr ""
+
+#: ../app/Resources/Options.php:263, ../views/widgets/categories.php:38
+msgid "Custom"
+msgstr ""
+
+#: ../app/Resources/Options.php:278
+msgid "Published"
+msgstr ""
+
+#: ../app/Resources/Options.php:279
+msgid "Pending"
+msgstr ""
+
+#: ../app/Resources/Options.php:280
+msgid "Draft"
+msgstr ""
+
+#: ../app/Resources/Options.php:281
+msgid "Reviewed"
+msgstr ""
+
+#: ../app/Resources/Options.php:282
+msgid "Expired"
+msgstr ""
+
+#: ../app/Resources/Options.php:285
+msgid "Temporary"
+msgstr ""
+
+#: ../app/Resources/Options.php:297
+msgid "Right"
+msgstr ""
+
+#: ../app/Resources/Options.php:299
+msgid "Bottom"
+msgstr ""
+
+#: ../app/Resources/Options.php:307
+msgctxt "Payment status"
+msgid "Pending"
+msgstr ""
+
+#: ../app/Resources/Options.php:308, ../app/Controllers/Admin/RegisterPostType.php:432
+msgctxt "Payment status"
+msgid "Processing"
+msgstr ""
+
+#: ../app/Resources/Options.php:309, ../app/Controllers/Admin/RegisterPostType.php:423
+msgctxt "Payment status"
+msgid "On hold"
+msgstr ""
+
+#: ../app/Resources/Options.php:310, ../app/Controllers/Admin/RegisterPostType.php:383
+msgctxt "Payment status"
+msgid "Completed"
+msgstr ""
+
+#: ../app/Resources/Options.php:311, ../app/Controllers/Admin/RegisterPostType.php:403
+msgctxt "Payment status"
+msgid "Cancelled"
+msgstr ""
+
+#: ../app/Resources/Options.php:312, ../app/Controllers/Admin/RegisterPostType.php:413
+msgctxt "Payment status"
+msgid "Refunded"
+msgstr ""
+
+#: ../app/Resources/Options.php:313, ../app/Controllers/Admin/RegisterPostType.php:393
+msgctxt "Payment status"
+msgid "Failed"
+msgstr ""
+
+#: ../app/Resources/Options.php:314, ../app/Controllers/Admin/RegisterPostType.php:373
+msgctxt "Payment status"
+msgid "Created"
+msgstr ""
+
+#: ../app/Resources/Options.php:334
+msgid "Sell"
+msgstr ""
+
+#: ../app/Resources/Options.php:335
+msgid "Buy"
+msgstr ""
+
+#: ../app/Resources/Options.php:336
+msgid "Exchange"
+msgstr ""
+
+#: ../app/Resources/Options.php:337
+msgid "Job"
+msgstr ""
+
+#: ../app/Resources/Options.php:338
+msgid "To-Let"
+msgstr ""
+
+#: ../app/Resources/Options.php:370
+msgid "Text Box"
+msgstr ""
+
+#: ../app/Resources/Options.php:375, ../app/Resources/Options.php:390, ../app/Resources/Options.php:409, ../app/Resources/Options.php:433
+msgid "Default value"
+msgstr ""
+
+#: ../app/Resources/Options.php:379, ../app/Resources/Options.php:394, ../app/Resources/Options.php:413, ../app/Resources/Options.php:437, ../app/Resources/Options.php:460
+msgid "Placeholder text"
+msgstr ""
+
+#: ../app/Resources/Options.php:385, ../views/settings/general-settings.php:103
+msgid "Textarea"
+msgstr ""
+
+#: ../app/Resources/Options.php:398
+msgid "Rows"
+msgstr ""
+
+#: ../app/Resources/Options.php:404
+msgid "URL"
+msgstr ""
+
+#: ../app/Resources/Options.php:417
+msgid "Open link in a new window?"
+msgstr ""
+
+#: ../app/Resources/Options.php:421
+msgid "Use rel=\"nofollow\" when displaying the link?"
+msgstr ""
+
+#: ../app/Resources/Options.php:428
+msgid "Number"
+msgstr ""
+
+#: ../app/Resources/Options.php:441
+msgid "Minimum value"
+msgstr ""
+
+#: ../app/Resources/Options.php:445
+msgid "Maximum value"
+msgstr ""
+
+#: ../app/Resources/Options.php:449
+msgid "Step Size"
+msgstr ""
+
+#: ../app/Resources/Options.php:455, ../app/Resources/Options.php:469, ../app/Controllers/Admin/Meta/OrderMetaColumn.php:68, ../templates/checkout/payment-info.php:33, ../templates/emails/email-order-details.php:56, ../templates/myaccount/payment-history.php:29
+msgid "Date"
+msgstr ""
+
+#: ../app/Resources/Options.php:464, ../app/Widgets/Filter.php:226, ../app/Controllers/Admin/Meta/OrderMetaColumn.php:65
+msgid "Type"
+msgstr ""
+
+#: ../app/Resources/Options.php:470
+msgid "Date & Time"
+msgstr ""
+
+#: ../app/Resources/Options.php:471
+msgid "Date Range"
+msgstr ""
+
+#: ../app/Resources/Options.php:472
+msgid "Date & Time Range"
+msgstr ""
+
+#: ../app/Resources/Options.php:476
+msgid "Date Format"
+msgstr ""
+
+#: ../app/Resources/Options.php:487
+msgid "Time Format"
+msgstr ""
+
+#: ../app/Resources/Options.php:498
+msgid "Search able date type"
+msgstr ""
+
+#: ../app/Resources/Options.php:503
+msgid "Single"
+msgstr ""
+
+#: ../app/Resources/Options.php:504
+msgid "Range"
+msgstr ""
+
+#: ../app/Resources/Options.php:510
+msgid "Select"
+msgstr ""
+
+#: ../app/Resources/Options.php:515, ../app/Resources/Options.php:526, ../app/Resources/Options.php:537
+msgid "Options"
+msgstr ""
+
+#: ../app/Resources/Options.php:521
+msgid "Radio"
+msgstr ""
+
+#: ../app/Resources/Options.php:532
+msgid "Checkbox"
+msgstr ""
+
+#: ../app/Resources/Options.php:548
+msgid "Field label"
+msgstr ""
+
+#: ../app/Resources/Options.php:550
+msgid "Enter field label"
+msgstr ""
+
+#: ../app/Resources/Options.php:554
+msgid "Field slug/name"
+msgstr ""
+
+#: ../app/Resources/Options.php:556
+msgid "Enter field slug/name"
+msgstr ""
+
+#: ../app/Resources/Options.php:560
+msgid "Field description"
+msgstr ""
+
+#: ../app/Resources/Options.php:562
+msgid "Enter field description"
+msgstr ""
+
+#: ../app/Resources/Options.php:565, ../app/Controllers/Admin/Meta/AddTermMetaField.php:364, ../app/Controllers/Admin/Meta/AddTermMetaField.php:478
+msgid "Icon"
+msgstr ""
+
+#: ../app/Resources/Options.php:572
+msgid "Required?"
+msgstr ""
+
+#: ../app/Resources/Options.php:576
+msgid "Include this field in the filter (Widget)?"
+msgstr ""
+
+#: ../app/Resources/Options.php:581
+msgid "Include this field in the listing?"
+msgstr ""
+
+#: ../app/Resources/Options.php:586
+msgid "Conditional Logic"
+msgstr ""
+
+#: ../app/Resources/Options.php:598, ../app/Resources/Options.php:1818, ../app/Resources/Options.php:1848, ../app/Controllers/Hooks/TemplateHooks.php:506, ../templates/listing-form/contact.php:116
+msgid "Zip Code"
+msgstr ""
+
+#: ../app/Resources/Options.php:604, ../app/Resources/Options.php:1817, ../app/Resources/Options.php:1849, ../app/Controllers/Hooks/TemplateHooks.php:511, ../templates/listing-form/contact.php:123
+msgid "Address"
+msgstr ""
+
+#: ../app/Resources/Options.php:610, ../app/Resources/Options.php:1850, ../templates/listing-form/contact.php:147, ../templates/myaccount/form-edit-account.php:136
+msgid "Phone"
+msgstr ""
+
+#: ../app/Resources/Options.php:616, ../templates/listing-form/contact.php:156
+msgid "Whatsapp number"
+msgstr ""
+
+#: ../app/Resources/Options.php:622, ../app/Resources/Options.php:1852, ../app/Controllers/Admin/AdminSettings.php:337, ../templates/listing-form/contact.php:165, ../templates/myaccount/user-info.php:27
+msgid "Email"
+msgstr ""
+
+#: ../app/Resources/Options.php:628, ../templates/listing-form/contact.php:177, ../templates/myaccount/form-edit-account.php:153
+msgid "Website"
+msgstr ""
+
+#: ../app/Resources/Options.php:637
+msgid "Jan"
+msgstr ""
+
+#: ../app/Resources/Options.php:638
+msgid "Feb"
+msgstr ""
+
+#: ../app/Resources/Options.php:639
+msgid "Mar"
+msgstr ""
+
+#: ../app/Resources/Options.php:640
+msgid "Apr"
+msgstr ""
+
+#: ../app/Resources/Options.php:641
+msgid "May"
+msgstr ""
+
+#: ../app/Resources/Options.php:642
+msgid "Jun"
+msgstr ""
+
+#: ../app/Resources/Options.php:643
+msgid "Jul"
+msgstr ""
+
+#: ../app/Resources/Options.php:644
+msgid "Aug"
+msgstr ""
+
+#: ../app/Resources/Options.php:645
+msgid "Sep"
+msgstr ""
+
+#: ../app/Resources/Options.php:646
+msgid "Oct"
+msgstr ""
+
+#: ../app/Resources/Options.php:647
+msgid "Nov"
+msgstr ""
+
+#: ../app/Resources/Options.php:648
+msgid "Dec"
+msgstr ""
+
+#: ../app/Resources/Options.php:895
+msgid "%1$s (%2$s)"
+msgstr ""
+
+#: ../app/Resources/Options.php:904
+msgid "United Arab Emirates dirham"
+msgstr ""
+
+#: ../app/Resources/Options.php:905
+msgid "Afghan afghani"
+msgstr ""
+
+#: ../app/Resources/Options.php:906
+msgid "Albanian lek"
+msgstr ""
+
+#: ../app/Resources/Options.php:907
+msgid "Armenian dram"
+msgstr ""
+
+#: ../app/Resources/Options.php:908
+msgid "Netherlands Antillean guilder"
+msgstr ""
+
+#: ../app/Resources/Options.php:909
+msgid "Angolan kwanza"
+msgstr ""
+
+#: ../app/Resources/Options.php:910
+msgid "Argentine peso"
+msgstr ""
+
+#: ../app/Resources/Options.php:911
+msgid "Australian dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:912
+msgid "Aruban florin"
+msgstr ""
+
+#: ../app/Resources/Options.php:913
+msgid "Azerbaijani manat"
+msgstr ""
+
+#: ../app/Resources/Options.php:914
+msgid "Bosnia and Herzegovina convertible mark"
+msgstr ""
+
+#: ../app/Resources/Options.php:915
+msgid "Barbadian dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:916
+msgid "Bangladeshi taka"
+msgstr ""
+
+#: ../app/Resources/Options.php:917
+msgid "Bulgarian lev"
+msgstr ""
+
+#: ../app/Resources/Options.php:918
+msgid "Bahraini dinar"
+msgstr ""
+
+#: ../app/Resources/Options.php:919
+msgid "Burundian franc"
+msgstr ""
+
+#: ../app/Resources/Options.php:920
+msgid "Bermudian dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:921
+msgid "Brunei dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:922
+msgid "Bolivian boliviano"
+msgstr ""
+
+#: ../app/Resources/Options.php:923
+msgid "Brazilian real"
+msgstr ""
+
+#: ../app/Resources/Options.php:924
+msgid "Bahamian dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:925
+msgid "Bitcoin"
+msgstr ""
+
+#: ../app/Resources/Options.php:926
+msgid "Bhutanese ngultrum"
+msgstr ""
+
+#: ../app/Resources/Options.php:927
+msgid "Botswana pula"
+msgstr ""
+
+#: ../app/Resources/Options.php:928
+msgid "Belarusian ruble (old)"
+msgstr ""
+
+#: ../app/Resources/Options.php:929
+msgid "Belarusian ruble"
+msgstr ""
+
+#: ../app/Resources/Options.php:930
+msgid "Belize dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:931
+msgid "Canadian dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:932
+msgid "Congolese franc"
+msgstr ""
+
+#: ../app/Resources/Options.php:933
+msgid "Swiss franc"
+msgstr ""
+
+#: ../app/Resources/Options.php:934
+msgid "Chilean peso"
+msgstr ""
+
+#: ../app/Resources/Options.php:935
+msgid "Chinese yuan"
+msgstr ""
+
+#: ../app/Resources/Options.php:936
+msgid "Colombian peso"
+msgstr ""
+
+#: ../app/Resources/Options.php:937
+msgid "Costa Rican col&oacute;n"
+msgstr ""
+
+#: ../app/Resources/Options.php:938
+msgid "Cuban convertible peso"
+msgstr ""
+
+#: ../app/Resources/Options.php:939
+msgid "Cuban peso"
+msgstr ""
+
+#: ../app/Resources/Options.php:940
+msgid "Cape Verdean escudo"
+msgstr ""
+
+#: ../app/Resources/Options.php:941
+msgid "Czech koruna"
+msgstr ""
+
+#: ../app/Resources/Options.php:942
+msgid "Djiboutian franc"
+msgstr ""
+
+#: ../app/Resources/Options.php:943
+msgid "Danish krone"
+msgstr ""
+
+#: ../app/Resources/Options.php:944
+msgid "Dominican peso"
+msgstr ""
+
+#: ../app/Resources/Options.php:945
+msgid "Algerian dinar"
+msgstr ""
+
+#: ../app/Resources/Options.php:946
+msgid "Egyptian pound"
+msgstr ""
+
+#: ../app/Resources/Options.php:947
+msgid "Eritrean nakfa"
+msgstr ""
+
+#: ../app/Resources/Options.php:948
+msgid "Ethiopian birr"
+msgstr ""
+
+#: ../app/Resources/Options.php:949
+msgid "Euro"
+msgstr ""
+
+#: ../app/Resources/Options.php:950
+msgid "Fijian dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:951
+msgid "Falkland Islands pound"
+msgstr ""
+
+#: ../app/Resources/Options.php:952
+msgid "Pound sterling"
+msgstr ""
+
+#: ../app/Resources/Options.php:953
+msgid "Georgian lari"
+msgstr ""
+
+#: ../app/Resources/Options.php:954
+msgid "Guernsey pound"
+msgstr ""
+
+#: ../app/Resources/Options.php:955
+msgid "Ghana cedi"
+msgstr ""
+
+#: ../app/Resources/Options.php:956
+msgid "Gibraltar pound"
+msgstr ""
+
+#: ../app/Resources/Options.php:957
+msgid "Gambian dalasi"
+msgstr ""
+
+#: ../app/Resources/Options.php:958
+msgid "Guinean franc"
+msgstr ""
+
+#: ../app/Resources/Options.php:959
+msgid "Guatemalan quetzal"
+msgstr ""
+
+#: ../app/Resources/Options.php:960
+msgid "Guyanese dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:961
+msgid "Hong Kong dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:962
+msgid "Honduran lempira"
+msgstr ""
+
+#: ../app/Resources/Options.php:963
+msgid "Croatian kuna"
+msgstr ""
+
+#: ../app/Resources/Options.php:964
+msgid "Haitian gourde"
+msgstr ""
+
+#: ../app/Resources/Options.php:965
+msgid "Hungarian forint"
+msgstr ""
+
+#: ../app/Resources/Options.php:966
+msgid "Indonesian rupiah"
+msgstr ""
+
+#: ../app/Resources/Options.php:967
+msgid "Israeli new shekel"
+msgstr ""
+
+#: ../app/Resources/Options.php:968
+msgid "Manx pound"
+msgstr ""
+
+#: ../app/Resources/Options.php:969
+msgid "Indian rupee"
+msgstr ""
+
+#: ../app/Resources/Options.php:970
+msgid "Iraqi dinar"
+msgstr ""
+
+#: ../app/Resources/Options.php:971
+msgid "Iranian rial"
+msgstr ""
+
+#: ../app/Resources/Options.php:972
+msgid "Iranian toman"
+msgstr ""
+
+#: ../app/Resources/Options.php:973
+msgid "Icelandic kr&oacute;na"
+msgstr ""
+
+#: ../app/Resources/Options.php:974
+msgid "Jersey pound"
+msgstr ""
+
+#: ../app/Resources/Options.php:975
+msgid "Jamaican dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:976
+msgid "Jordanian dinar"
+msgstr ""
+
+#: ../app/Resources/Options.php:977
+msgid "Japanese yen"
+msgstr ""
+
+#: ../app/Resources/Options.php:978
+msgid "Kenyan shilling"
+msgstr ""
+
+#: ../app/Resources/Options.php:979
+msgid "Kyrgyzstani som"
+msgstr ""
+
+#: ../app/Resources/Options.php:980
+msgid "Cambodian riel"
+msgstr ""
+
+#: ../app/Resources/Options.php:981
+msgid "Comorian franc"
+msgstr ""
+
+#: ../app/Resources/Options.php:982
+msgid "North Korean won"
+msgstr ""
+
+#: ../app/Resources/Options.php:983
+msgid "South Korean won"
+msgstr ""
+
+#: ../app/Resources/Options.php:984
+msgid "Kuwaiti dinar"
+msgstr ""
+
+#: ../app/Resources/Options.php:985
+msgid "Cayman Islands dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:986
+msgid "Kazakhstani tenge"
+msgstr ""
+
+#: ../app/Resources/Options.php:987
+msgid "Lao kip"
+msgstr ""
+
+#: ../app/Resources/Options.php:988
+msgid "Lebanese pound"
+msgstr ""
+
+#: ../app/Resources/Options.php:989
+msgid "Sri Lankan rupee"
+msgstr ""
+
+#: ../app/Resources/Options.php:990
+msgid "Liberian dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:991
+msgid "Lesotho loti"
+msgstr ""
+
+#: ../app/Resources/Options.php:992
+msgid "Libyan dinar"
+msgstr ""
+
+#: ../app/Resources/Options.php:993
+msgid "Moroccan dirham"
+msgstr ""
+
+#: ../app/Resources/Options.php:994
+msgid "Moldovan leu"
+msgstr ""
+
+#: ../app/Resources/Options.php:995
+msgid "Malagasy ariary"
+msgstr ""
+
+#: ../app/Resources/Options.php:996
+msgid "Macedonian denar"
+msgstr ""
+
+#: ../app/Resources/Options.php:997
+msgid "Burmese kyat"
+msgstr ""
+
+#: ../app/Resources/Options.php:998
+msgid "Mongolian t&ouml;gr&ouml;g"
+msgstr ""
+
+#: ../app/Resources/Options.php:999
+msgid "Macanese pataca"
+msgstr ""
+
+#: ../app/Resources/Options.php:1000
+msgid "Mauritanian ouguiya"
+msgstr ""
+
+#: ../app/Resources/Options.php:1001
+msgid "Mauritian rupee"
+msgstr ""
+
+#: ../app/Resources/Options.php:1002
+msgid "Maldivian rufiyaa"
+msgstr ""
+
+#: ../app/Resources/Options.php:1003
+msgid "Malawian kwacha"
+msgstr ""
+
+#: ../app/Resources/Options.php:1004
+msgid "Mexican peso"
+msgstr ""
+
+#: ../app/Resources/Options.php:1005
+msgid "Malaysian ringgit"
+msgstr ""
+
+#: ../app/Resources/Options.php:1006
+msgid "Mozambican metical"
+msgstr ""
+
+#: ../app/Resources/Options.php:1007
+msgid "Namibian dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:1008
+msgid "Nigerian naira"
+msgstr ""
+
+#: ../app/Resources/Options.php:1009
+msgid "Nicaraguan c&oacute;rdoba"
+msgstr ""
+
+#: ../app/Resources/Options.php:1010
+msgid "Norwegian krone"
+msgstr ""
+
+#: ../app/Resources/Options.php:1011
+msgid "Nepalese rupee"
+msgstr ""
+
+#: ../app/Resources/Options.php:1012
+msgid "New Zealand dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:1013
+msgid "Omani rial"
+msgstr ""
+
+#: ../app/Resources/Options.php:1014
+msgid "Panamanian balboa"
+msgstr ""
+
+#: ../app/Resources/Options.php:1015
+msgid "Peruvian nuevo sol"
+msgstr ""
+
+#: ../app/Resources/Options.php:1016
+msgid "Papua New Guinean kina"
+msgstr ""
+
+#: ../app/Resources/Options.php:1017
+msgid "Philippine peso"
+msgstr ""
+
+#: ../app/Resources/Options.php:1018
+msgid "Pakistani rupee"
+msgstr ""
+
+#: ../app/Resources/Options.php:1019
+msgid "Polish z&#x142;oty"
+msgstr ""
+
+#: ../app/Resources/Options.php:1020
+msgid "Transnistrian ruble"
+msgstr ""
+
+#: ../app/Resources/Options.php:1021
+msgid "Paraguayan guaran&iacute;"
+msgstr ""
+
+#: ../app/Resources/Options.php:1022
+msgid "Qatari riyal"
+msgstr ""
+
+#: ../app/Resources/Options.php:1023
+msgid "Romanian leu"
+msgstr ""
+
+#: ../app/Resources/Options.php:1024
+msgid "Serbian dinar"
+msgstr ""
+
+#: ../app/Resources/Options.php:1025
+msgid "Russian ruble"
+msgstr ""
+
+#: ../app/Resources/Options.php:1026
+msgid "Rwandan franc"
+msgstr ""
+
+#: ../app/Resources/Options.php:1027
+msgid "Saudi riyal"
+msgstr ""
+
+#: ../app/Resources/Options.php:1028
+msgid "Solomon Islands dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:1029
+msgid "Seychellois rupee"
+msgstr ""
+
+#: ../app/Resources/Options.php:1030
+msgid "Sudanese pound"
+msgstr ""
+
+#: ../app/Resources/Options.php:1031
+msgid "Swedish krona"
+msgstr ""
+
+#: ../app/Resources/Options.php:1032
+msgid "Singapore dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:1033
+msgid "Saint Helena pound"
+msgstr ""
+
+#: ../app/Resources/Options.php:1034
+msgid "Sierra Leonean leone"
+msgstr ""
+
+#: ../app/Resources/Options.php:1035
+msgid "Somali shilling"
+msgstr ""
+
+#: ../app/Resources/Options.php:1036
+msgid "Surinamese dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:1037
+msgid "South Sudanese pound"
+msgstr ""
+
+#: ../app/Resources/Options.php:1038
+msgid "S&atilde;o Tom&eacute; and Pr&iacute;ncipe dobra"
+msgstr ""
+
+#: ../app/Resources/Options.php:1039
+msgid "Syrian pound"
+msgstr ""
+
+#: ../app/Resources/Options.php:1040
+msgid "Swazi lilangeni"
+msgstr ""
+
+#: ../app/Resources/Options.php:1041
+msgid "Thai baht"
+msgstr ""
+
+#: ../app/Resources/Options.php:1042
+msgid "Tajikistani somoni"
+msgstr ""
+
+#: ../app/Resources/Options.php:1043
+msgid "Turkmenistan manat"
+msgstr ""
+
+#: ../app/Resources/Options.php:1044
+msgid "Tunisian dinar"
+msgstr ""
+
+#: ../app/Resources/Options.php:1045
+msgid "Tongan pa&#x2bb;anga"
+msgstr ""
+
+#: ../app/Resources/Options.php:1046
+msgid "Turkish lira"
+msgstr ""
+
+#: ../app/Resources/Options.php:1047
+msgid "Trinidad and Tobago dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:1048
+msgid "New Taiwan dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:1049
+msgid "Tanzanian shilling"
+msgstr ""
+
+#: ../app/Resources/Options.php:1050
+msgid "Ukrainian hryvnia"
+msgstr ""
+
+#: ../app/Resources/Options.php:1051
+msgid "Ugandan shilling"
+msgstr ""
+
+#: ../app/Resources/Options.php:1052
+msgid "United States dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:1053
+msgid "Uruguayan peso"
+msgstr ""
+
+#: ../app/Resources/Options.php:1054
+msgid "Uzbekistani som"
+msgstr ""
+
+#: ../app/Resources/Options.php:1055
+msgid "Venezuelan bol&iacute;var"
+msgstr ""
+
+#: ../app/Resources/Options.php:1056
+msgid "Vietnamese &#x111;&#x1ed3;ng"
+msgstr ""
+
+#: ../app/Resources/Options.php:1057
+msgid "Vanuatu vatu"
+msgstr ""
+
+#: ../app/Resources/Options.php:1058
+msgid "Samoan t&#x101;l&#x101;"
+msgstr ""
+
+#: ../app/Resources/Options.php:1059
+msgid "Central African CFA franc"
+msgstr ""
+
+#: ../app/Resources/Options.php:1060
+msgid "East Caribbean dollar"
+msgstr ""
+
+#: ../app/Resources/Options.php:1061
+msgid "West African CFA franc"
+msgstr ""
+
+#: ../app/Resources/Options.php:1062
+msgid "CFP franc"
+msgstr ""
+
+#: ../app/Resources/Options.php:1063
+msgid "Yemeni rial"
+msgstr ""
+
+#: ../app/Resources/Options.php:1064
+msgid "South African rand"
+msgstr ""
+
+#: ../app/Resources/Options.php:1065
+msgid "Zambian kwacha"
+msgstr ""
+
+#: ../app/Resources/Options.php:1074, ../app/Widgets/Filter.php:263, ../templates/widgets/search/vertical.php:94
+msgid "Price Range"
+msgstr ""
+
+#: ../app/Resources/Options.php:1075
+msgid "Disabled"
+msgstr ""
+
+#: ../app/Resources/Options.php:1084
+msgid "Regular"
+msgstr ""
+
+#: ../app/Resources/Options.php:1092
+msgid "Left ($99)"
+msgstr ""
+
+#: ../app/Resources/Options.php:1093
+msgid "Right (99$)"
+msgstr ""
+
+#: ../app/Resources/Options.php:1094
+msgid "Left with space ($ 99)"
+msgstr ""
+
+#: ../app/Resources/Options.php:1095
+msgid "Right with space (99 $)"
+msgstr ""
+
+#: ../app/Resources/Options.php:1712
+msgid "per year"
+msgstr ""
+
+#: ../app/Resources/Options.php:1716
+msgid "per month"
+msgstr ""
+
+#: ../app/Resources/Options.php:1719
+msgid "Week"
+msgstr ""
+
+#: ../app/Resources/Options.php:1720
+msgid "per week"
+msgstr ""
+
+#: ../app/Resources/Options.php:1724
+msgid "per day"
+msgstr ""
+
+#: ../app/Resources/Options.php:1728
+msgid "per hour"
+msgstr ""
+
+#: ../app/Resources/Options.php:1731
+msgid "Square Feet"
+msgstr ""
+
+#: ../app/Resources/Options.php:1732
+msgid "per sqft"
+msgstr ""
+
+#: ../app/Resources/Options.php:1735
+msgid "Total Price"
+msgstr ""
+
+#: ../app/Resources/Options.php:1736
+msgid "total price"
+msgstr ""
+
+#: ../app/Resources/Options.php:1746
+msgid "A new user is registered (Only work when user registered using Classified listing plugin registration form)"
+msgstr ""
+
+#: ../app/Resources/Options.php:1747
+msgid "A new listing is submitted"
+msgstr ""
+
+#: ../app/Resources/Options.php:1748
+msgid "A listing is edited"
+msgstr ""
+
+#: ../app/Resources/Options.php:1749
+msgid "A listing expired"
+msgstr ""
+
+#: ../app/Resources/Options.php:1750, ../app/Resources/Options.php:1765
+msgid "Order created"
+msgstr ""
+
+#: ../app/Resources/Options.php:1751
+msgid "Payment received / Order Completed"
+msgstr ""
+
+#: ../app/Resources/Options.php:1752
+msgid "A contact message is sent to a listing owner"
+msgstr ""
+
+#: ../app/Resources/Options.php:1760
+msgid "Listing is submitted"
+msgstr ""
+
+#: ../app/Resources/Options.php:1761
+msgid "Listing is approved/published"
+msgstr ""
+
+#: ../app/Resources/Options.php:1762
+msgid "Listing is about to expire (reached renewal email threshold)"
+msgstr ""
+
+#: ../app/Resources/Options.php:1763
+msgid "Listing expired"
+msgstr ""
+
+#: ../app/Resources/Options.php:1764
+msgid "Listing expired and reached renewal reminder email threshold"
+msgstr ""
+
+#: ../app/Resources/Options.php:1766
+msgid "Order completed"
+msgstr ""
+
+#: ../app/Resources/Options.php:1767
+msgid "Disable contact email to listing owner"
+msgstr ""
+
+#: ../app/Resources/Options.php:1795
+msgid "Plain text"
+msgstr ""
+
+#: ../app/Resources/Options.php:1798
+msgid "HTML"
+msgstr ""
+
+#: ../app/Resources/Options.php:1799
+msgid "Multipart"
+msgstr ""
+
+#: ../app/Resources/Options.php:1807
+msgid "User Registration form"
+msgstr ""
+
+#: ../app/Resources/Options.php:1808
+msgid "New Listing form"
+msgstr ""
+
+#: ../app/Resources/Options.php:1809, ../views/settings/moderation-settings.php:76
+msgid "Contact form"
+msgstr ""
+
+#: ../app/Resources/Options.php:1810
+msgid "Report abuse form"
+msgstr ""
+
+#: ../app/Resources/Options.php:1824
+msgid "Category name"
+msgstr ""
+
+#: ../app/Resources/Options.php:1825
+msgid "Location name"
+msgstr ""
+
+#: ../app/Resources/Options.php:1826
+msgid "Date added"
+msgstr ""
+
+#: ../app/Resources/Options.php:1827
+msgid "Listing owner name"
+msgstr ""
+
+#: ../app/Resources/Options.php:1830
+msgid "Price type"
+msgstr ""
+
+#: ../app/Resources/Options.php:1831
+msgid "Feature Label"
+msgstr ""
+
+#: ../app/Resources/Options.php:1832
+msgid "New Label"
+msgstr ""
+
+#: ../app/Resources/Options.php:1840, ../templates/listing-form/category.php:28
+msgid "Ad Type"
+msgstr ""
+
+#: ../app/Resources/Options.php:1841
+msgid "Pricing Type"
+msgstr ""
+
+#: ../app/Resources/Options.php:1845, ../app/Controllers/Admin/Meta/AddMetaBox.php:72
+msgid "Gallery"
+msgstr ""
+
+#: ../app/Resources/Options.php:1846, ../app/Controllers/Admin/Meta/AddMetaBox.php:80, ../templates/listing-form/video-urls.php:15
+msgid "Video URL"
+msgstr ""
+
+#: ../app/Resources/Options.php:1847, ../app/Widgets/Filter.php:189, ../app/Controllers/Admin/ScriptLoader.php:351, ../app/Controllers/Hooks/TemplateHooks.php:310, ../app/Controllers/Hooks/TemplateHooks.php:429, ../templates/listing-form/contact.php:133
+msgid "Location"
+msgstr ""
+
+#: ../app/Resources/Options.php:1851
+msgid "Whatsapp Number"
+msgstr ""
+
+#: ../app/Resources/Options.php:1853
+msgid "Website URL"
+msgstr ""
+
+#: ../app/Resources/Options.php:1860
+msgid "Short description"
+msgstr ""
+
+#: ../app/Resources/Options.php:1883
+msgid "Linkedin"
+msgstr ""
+
+#: ../app/Resources/Options.php:1885
+msgid "WhatsApp (Only at mobile)"
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:19
+msgid "Move to trash"
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:23, ../app/Resources/OrderOptions.php:24, ../app/Controllers/Hooks/TemplateHooks.php:724, ../app/Controllers/Admin/Meta/ListingSubmitBoxMice.php:111
+msgid "Update"
+msgstr ""
+
+#. translators: 1: order type 2: order number
+#: ../app/Resources/OrderOptions.php:52
+msgid "Order #%1$s details"
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:61
+msgid "Payment via %s"
+msgstr ""
+
+#. translators: 1: date 2: time
+#: ../app/Resources/OrderOptions.php:69
+msgid "Paid on %1$s @ %2$s"
+msgstr ""
+
+#. translators: %s: IP address
+#: ../app/Resources/OrderOptions.php:78
+msgid "Customer IP: %s"
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:88, ../app/Controllers/Admin/AdminSettings.php:276, ../app/Controllers/Admin/AdminSettings.php:334
+msgid "General"
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:90
+msgid "Status:"
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:94
+msgid "Customer payment page &rarr;"
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:123
+msgid "Item"
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:124
+msgid "Pricing Title"
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:125, ../app/Controllers/Admin/Meta/PricingMetaColumn.php:39
+msgid "Visible <small>Days</small>"
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:126, ../app/Controllers/Admin/Meta/PricingMetaColumn.php:40
+msgid "Promotions"
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:162
+msgid "Add note"
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:162
+msgid "Add a note for your reference, or add a customer note (the user will be notified)."
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:168
+msgid "Note type"
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:170
+msgid "Private note"
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:171
+msgid "Note to customer"
+msgstr ""
+
+#: ../app/Resources/OrderOptions.php:174
+msgid "Add"
+msgstr ""
+
+#: ../app/Resources/PricingOptions.php:55
+msgid "Validate until"
+msgstr ""
+
+#: ../app/Resources/PricingOptions.php:57
+msgid "Number of days the pricing will be validate."
+msgstr ""
+
+#: ../app/Resources/PricingOptions.php:64
+msgid "Allowed"
+msgstr ""
+
+#: ../app/Resources/PricingOptions.php:77
+msgid "HTML is allowed :)"
+msgstr ""
+
+#: ../app/Shortcodes/Categories.php:68, ../templates/myaccount/payment-history.php:59
+msgid "No Results Found."
+msgstr ""
+
+#: ../app/Shortcodes/Checkout.php:39
+msgid "Need to login to access this page"
+msgstr ""
+
+#: ../app/Shortcodes/Checkout.php:61
+msgid "Given Payment Id is not a valid payment."
+msgstr ""
+
+#: ../app/Shortcodes/FilterListings.php:36, ../app/Widgets/Listings.php:30, ../app/Controllers/Admin/AddConfig.php:19
+msgid "Listings"
+msgstr ""
+
+#: ../app/Shortcodes/ListingForm.php:31
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: ../app/Shortcodes/ListingForm.php:52, ../app/Controllers/Ajax/PublicUser.php:750
+msgid "Please select ad type and category"
+msgstr ""
+
+#: ../app/Shortcodes/ListingForm.php:55, ../app/Controllers/Ajax/PublicUser.php:753
+msgid "Please select an ad type"
+msgstr ""
+
+#: ../app/Shortcodes/ListingForm.php:59, ../app/Controllers/Ajax/PublicUser.php:757
+msgid "Please select correct type and category"
+msgstr ""
+
+#: ../app/Shortcodes/MyAccount.php:44
+msgid "Your password has been reset successfully."
+msgstr ""
+
+#: ../app/Shortcodes/MyAccount.php:173
+msgid "Password reset email has been sent."
+msgstr ""
+
+#: ../app/Shortcodes/MyAccount.php:220
+msgid "This key is invalid or has already been used. Please reset your password again if needed."
+msgstr ""
+
+#: ../app/Shortcodes/MyAccount.php:259
+msgid "Enter a username or email address."
+msgstr ""
+
+#: ../app/Shortcodes/MyAccount.php:284, ../app/Shortcodes/MyAccount.php:290
+msgid "Invalid username or email."
+msgstr ""
+
+#: ../app/Shortcodes/MyAccount.php:304
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#. translators: %s: search query
+#: ../app/Traits/TemplateTrait.php:14
+msgid "Search results: &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s: page number
+#: ../app/Traits/TemplateTrait.php:18
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#: ../app/Traits/UtilityTrait.php:162
+msgctxt "breadcrumb"
+msgid "Home"
+msgstr ""
+
+#: ../app/Traits/UtilityTrait.php:301
+msgctxt "slug"
+msgid "listing"
+msgstr ""
+
+#: ../app/Traits/UtilityTrait.php:390, ../app/Traits/UtilityTrait.php:390
+msgid "privacy policy"
+msgstr ""
+
+#: ../app/Traits/UtilityTrait.php:391, ../app/Traits/UtilityTrait.php:391
+msgid "terms and conditions"
+msgstr ""
+
+#: ../app/Widgets/Categories.php:20
+msgid "Classified Listing Categories"
+msgstr ""
+
+#: ../app/Widgets/Categories.php:23
+msgid "A list of classified listing Categories."
+msgstr ""
+
+#: ../app/Widgets/Categories.php:92, ../app/Controllers/Admin/AdminSettings.php:65, ../app/Controllers/Admin/RegisterPostType.php:33
+msgid "Categories"
+msgstr ""
+
+#: ../app/Widgets/Filter.php:30
+msgid "Classified Listing Filter"
+msgstr ""
+
+#: ../app/Widgets/Filter.php:33
+msgid "Classified listing Filter."
+msgstr ""
+
+#: ../app/Widgets/Filter.php:123
+msgid "Filter"
+msgstr ""
+
+#: ../app/Widgets/Filter.php:250, ../templates/widgets/search/inline.php:100, ../templates/widgets/search/vertical.php:98
+msgid "min"
+msgstr ""
+
+#: ../app/Widgets/Filter.php:252, ../templates/widgets/search/inline.php:107, ../templates/widgets/search/vertical.php:105
+msgid "max"
+msgstr ""
+
+#: ../app/Widgets/Listings.php:56
+msgid "Classified Listing Listings"
+msgstr ""
+
+#: ../app/Widgets/Listings.php:59
+msgid "Displays classified Listings."
+msgstr ""
+
+#: ../app/Widgets/Search.php:23
+msgid "Classified Listing Search"
+msgstr ""
+
+#: ../app/Widgets/Search.php:26
+msgid "A Search feature"
+msgstr ""
+
+#: ../app/Widgets/Search.php:74, ../templates/widgets/search/vertical.php:116
+msgid "Search Listings"
+msgstr ""
+
+#: ../app/Controllers/Admin/AddConfig.php:23, ../views/settings/moderation-settings.php:112
+msgid "Listing Form"
+msgstr ""
+
+#: ../app/Controllers/Admin/AddConfig.php:27
+msgid "Checkout"
+msgstr ""
+
+#: ../app/Controllers/Admin/AddConfig.php:31
+msgid "My Account"
+msgstr ""
+
+#: ../app/Controllers/Admin/AddConfig.php:44, ../templates/global/pagination.php:33
+msgid "Page"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:78, ../app/Controllers/Admin/RegisterPostType.php:78
+msgid "Locations"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:93, ../app/Controllers/Admin/AdminSettings.php:185, ../app/Controllers/Admin/AdminSettings.php:186, ../views/settings/listing-type.php:7
+msgid "Listing Types"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:108, ../app/Controllers/Admin/RegisterPostType.php:198, ../app/Controllers/Admin/RegisterPostType.php:199
+msgid "Custom Fields"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:122, ../app/Controllers/Admin/RegisterPostType.php:301, ../app/Controllers/Admin/RegisterPostType.php:302, ../app/Controllers/Admin/RegisterPostType.php:303
+msgid "Pricing"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:136, ../app/Controllers/Admin/RegisterPostType.php:264, ../app/Controllers/Admin/RegisterPostType.php:266
+msgid "Payment History"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:150, ../app/Controllers/Admin/AdminSettings.php:208, ../app/Controllers/Admin/AdminSettings.php:209
+msgid "Settings"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:165
+msgid "Clear all cache"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:196, ../app/Controllers/Admin/AdminSettings.php:197, ../views/settings/import-export.php:2, ../views/settings/import-export.php:19
+msgid "Import"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:277
+msgid "Directory"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:284
+msgid "Checkout option"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:335
+msgid "Moderation"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:336, ../app/Controllers/Admin/RegisterPostType.php:265
+msgid "Payment"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:338
+msgid "Account & Policy"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:340
+msgid "Misc"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:341
+msgid "Advanced"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:342
+msgid "Tools"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:374
+msgid "HTML email template"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:403
+msgid "Your Rest API key already generated"
+msgstr ""
+
+#: ../app/Controllers/Admin/AdminSettings.php:399
+msgid "You are not allow to make this request."
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:31
+msgctxt "Taxonomy General Name"
+msgid "Listing Categories"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:32
+msgctxt "Taxonomy Singular Name"
+msgid "Category"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:35
+msgid "Parent Category"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:36
+msgid "Parent Category:"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:37
+msgid "New Category Name"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:38
+msgid "Add New Category"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:39
+msgid "Edit Category"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:40
+msgid "Update Category"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:41
+msgid "View Category"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:42
+msgid "Separate Categories with commas"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:43
+msgid "Add or remove Categories"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:44, ../app/Controllers/Admin/RegisterPostType.php:89
+msgid "Choose from the most used"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:46
+msgid "Search Categories"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:47, ../app/Controllers/Admin/RegisterPostType.php:92
+msgid "Not Found"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:76
+msgctxt "Taxonomy General Name"
+msgid "Listing Locations"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:77
+msgctxt "Taxonomy Singular Name"
+msgid "Location"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:80
+msgid "Parent Location"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:81
+msgid "Parent Location:"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:82
+msgid "New Location Name"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:83
+msgid "Add New Location"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:84
+msgid "Edit Location"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:85
+msgid "Update Location"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:86
+msgid "View Location"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:87
+msgid "Separate Locations with commas"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:88
+msgid "Add or remove Locations"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:91
+msgid "Search Locations"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:134
+msgctxt "post type general name"
+msgid "Classified Listings"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:135
+msgctxt "post type singular name"
+msgid "Classified Listing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:136
+msgctxt "post"
+msgid "Add New"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:137, ../templates/myaccount/my-listings.php:39
+msgid "Add New Listing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:138
+msgid "Edit Listing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:139
+msgid "New Listing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:140
+msgid "All Listings"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:141
+msgid "View Listing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:142
+msgid "Search Listing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:143
+msgid "No Listings found"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:144
+msgid "No Listing found in the Trash"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:145
+msgid "Listing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:146
+msgid "Update Listing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:200, ../app/Controllers/Admin/RegisterPostType.php:268, ../app/Controllers/Admin/RegisterPostType.php:305
+msgid "Add New"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:201
+msgid "Add New Field Group"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:202
+msgid "Edit Field Group"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:203
+msgid "New Field Group"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:204
+msgid "View Field Group"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:205
+msgid "Search Field Groups"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:206
+msgid "No Field Groups found"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:207
+msgid "No Field Groups found in Trash"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:242
+msgid "Custom Field"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:262
+msgctxt "Post Type General Name"
+msgid "Payment History"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:263
+msgctxt "Post Type Singular Name"
+msgid "Payment"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:267
+msgid "Add New Payment"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:269
+msgid "New Payment"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:270
+msgid "Edit Payment"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:271
+msgid "Update Payment"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:272
+msgid "View Payment"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:273
+msgid "Search Payment"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:274
+msgid "No payments found"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:275
+msgid "No payments found in Trash"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:280
+msgid "Post Type Description"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:299
+msgctxt "Post Type General Name"
+msgid "Pricing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:300
+msgctxt "Post Type Singular Name"
+msgid "Pricing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:304
+msgid "Add New Pricing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:306
+msgid "New Pricing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:307
+msgid "Edit Pricing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:308
+msgid "Update Pricing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:309
+msgid "View Pricing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:310
+msgid "Search Pricing"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:311
+msgid "No Pricing found"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:312
+msgid "No Pricing found in Trash"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:338
+msgctxt "post"
+msgid "Reviewed"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:341
+msgid "Review <span class=\"count\">(%s)</span>"
+msgid_plural "Review <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:346
+msgctxt "post"
+msgid "Expired"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:349
+msgid "Expired <span class=\"count\">(%s)</span>"
+msgid_plural "Expired <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:354
+msgctxt "post"
+msgid "Temporary"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:358
+msgid "Temporary <span class=\"count\">(%s)</span>"
+msgid_plural "Temporary <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:363
+msgctxt "pending status payment"
+msgid "Pending payment"
+msgstr ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:368
+msgid "Pending payment <span class=\"count\">(%s)</span>"
+msgid_plural "Pending payment <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:378
+msgid "Created <span class=\"count\">(%s)</span>"
+msgid_plural "Created <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:388
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:398
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:408
+msgid "Cancelled <span class=\"count\">(%s)</span>"
+msgid_plural "Cancelled <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:418
+msgid "Refunded <span class=\"count\">(%s)</span>"
+msgid_plural "Refunded <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:428
+msgid "On hold <span class=\"count\">(%s)</span>"
+msgid_plural "Refunded <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Controllers/Admin/RegisterPostType.php:437
+msgid "Processing <span class=\"count\">(%s)</span>"
+msgid_plural "Refunded <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:55, ../app/Controllers/Admin/ScriptLoader.php:346
+msgid "Are you sure you want to re-send verification link?"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:85
+msgid "Delete Image"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:86
+msgid "View Full Image"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:87
+msgid "Main"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:88, ../app/Controllers/Admin/ScriptLoader.php:377
+msgid "Error while upload image"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:89, ../app/Controllers/Admin/ScriptLoader.php:378
+msgid "Image size is more then %s."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:90
+msgid "Image limit is over."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:91, ../app/Controllers/Admin/ScriptLoader.php:379
+msgid "File extension not supported."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:96, ../app/Controllers/Ajax/PublicUser.php:135, ../app/Controllers/Ajax/PublicUser.php:197, ../app/Controllers/Gutenberg/AdminAjaxController.php:33, ../app/Controllers/Gutenberg/AdminAjaxController.php:48, ../app/Controllers/Gutenberg/AdminAjaxController.php:71, ../app/Controllers/Gutenberg/AdminAjaxController.php:232, ../app/Controllers/Gutenberg/AdminAjaxController.php:250, ../app/Controllers/Gutenberg/ListingsAjaxController.php:215
+msgid "Session Expired!!"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:98
+msgid "This field is required."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:99
+msgid "Please fix this field."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:100
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:101
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:102
+msgid "Please enter a valid date."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:103
+msgid "Please enter a valid date (ISO)."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:104
+msgid "Please enter a valid number."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:105
+msgid "Please enter only digits."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:106
+msgid "Please enter the same value again."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:107
+msgid "Please enter no more than {0} characters."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:108
+msgid "Please enter at least {0} characters."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:109
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:110
+msgid "Please enter a value between {0} and {1}."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:111
+msgid "Invalid format."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:112
+msgid "Please enter {0} words or less."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:113
+msgid "Please enter at least {0} words."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:114
+msgid "Please enter between {0} and {1} words."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:115
+msgid "Letters, numbers, and underscores only please"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:116
+msgid "Only alphabets and spaces are allowed."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:117
+msgid "Please enter a value with a valid mimetype."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:118
+msgid "Please enter a value less than or equal to {0}."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:119
+msgid "Please enter a value greater than or equal to {0}."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:120
+msgid "Please enter a multiple of {0}."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:121
+msgid "Please Select a value file with a valid extension."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:122, ../app/Controllers/Hooks/FilterHooks.php:88
+msgid "Your password must be at least %d characters long."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:124
+msgid "Please enter a valid credit card number."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:125
+msgid "Enter a valid cvc number."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:126
+msgid "Enter a valid expiry date"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:127
+msgid "Your card number is incorrect."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:128
+msgid "A network error has occurred, and you have not been charged. Please try again."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:132
+msgid "Password strength unknown"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:133
+msgid "Very weak"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:134
+msgid "Weak"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:135
+msgid "Medium"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:136
+msgid "Strong"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:137
+msgid "Mismatch"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:337
+msgid "Please select a rating"
+msgstr ""
+
+#. translators: %s: decimal
+#: ../app/Controllers/Admin/ScriptLoader.php:339, ../app/Controllers/Admin/ScriptLoader.php:432, ../app/Controllers/Admin/ScriptLoader.php:433
+msgid "Please enter in decimal (%s) format without thousand separators."
+msgstr ""
+
+#. translators: %s: price decimal separator
+#: ../app/Controllers/Admin/ScriptLoader.php:341, ../app/Controllers/Admin/ScriptLoader.php:434, ../app/Controllers/Admin/ScriptLoader.php:435
+msgid "Please enter in monetary decimal (%s) format without thousand separators and currency symbols."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:350
+msgid "Go back"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:362
+msgid "You can't leave Captcha Code empty"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:363
+msgid "Sorry, you need to login first."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:364
+msgid "Sorry, you have only %d images pending."
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:365
+msgid "Delete Permanently"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:366, ../app/Controllers/Hooks/TemplateHooks.php:1237
+msgid "Proceed to payment"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:367
+msgid "Finish submission"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:386
+msgid "Please select ad type first"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:387
+msgid "Please select parent category first"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:438
+msgid "Expired on:"
+msgstr ""
+
+#: ../app/Controllers/Admin/ScriptLoader.php:440
+msgid "Are you sure you wish to delete this note? This action cannot be undone."
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxCFG.php:36, ../app/Controllers/Ajax/AjaxCFG.php:79
+msgid "Session expired"
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxCFG.php:33
+msgid "Field was not selected"
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxCFG.php:30, ../app/Controllers/Ajax/AjaxCFG.php:73
+msgid "Success"
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxCFG.php:48
+msgid "You can choose from the available fields:"
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxCFG.php:76
+msgid "Select a field type"
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxGallery.php:57
+msgid "Permission denied."
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxGallery.php:54, ../app/Controllers/Ajax/AjaxGallery.php:179, ../app/Controllers/Ajax/PublicUser.php:73
+msgid "File could not be deleted."
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxGallery.php:52, ../app/Controllers/Ajax/AjaxListingType.php:136, ../app/Controllers/Ajax/PublicUser.php:71
+msgid "Successfully deleted"
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxGallery.php:139
+msgid "Thumbnail image should be selected"
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxGallery.php:106, ../app/Controllers/Ajax/AjaxGallery.php:271
+msgid "RTCL Auto Temp"
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxGallery.php:133, ../app/Controllers/Ajax/AjaxListingType.php:86, ../app/Controllers/Ajax/PublicUser.php:118
+msgid "Successfully updated."
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxGallery.php:155, ../app/Controllers/Ajax/AjaxGallery.php:188, ../app/Controllers/Ajax/AjaxGallery.php:206, ../app/Controllers/Ajax/AjaxGallery.php:297, ../app/Controllers/Ajax/AjaxGallery.php:502, ../app/Controllers/Ajax/AjaxGallery.php:566, ../app/Controllers/Ajax/AjaxGallery.php:615
+msgid "Invalid Session. Please refresh the page and try again."
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxGallery.php:172
+msgid "Incorrect attachment ID."
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxGallery.php:167
+msgid "Attachment does not exist."
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxGallery.php:305, ../app/Controllers/Ajax/AjaxGallery.php:511, ../app/Controllers/Ajax/AjaxGallery.php:623
+msgid "You cannot edit images."
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxGallery.php:325, ../app/Controllers/Ajax/AjaxGallery.php:525, ../app/Controllers/Ajax/AjaxGallery.php:582, ../app/Controllers/Ajax/AjaxGallery.php:638
+msgid "Incorrect Post or Attachment ID."
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxListingType.php:21
+msgid "Type field is required"
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxListingType.php:42, ../app/Controllers/Ajax/AjaxListingType.php:114, ../app/Controllers/Ajax/AjaxListingType.php:143, ../app/Controllers/Ajax/PublicUser.php:631
+msgid "Session expired."
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxListingType.php:37
+msgid "Successfully added."
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxListingType.php:28
+msgid "This type already exist."
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxListingType.php:57
+msgid "Type id and name is required"
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxListingType.php:109
+msgid "No types found."
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxListingType.php:106
+msgid "Unknown Error!"
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxListingType.php:104
+msgid "Successfully updated"
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxListingType.php:88
+msgid "This type is already exist."
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxListingType.php:77
+msgid "No change found."
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxListingType.php:127
+msgid "Type id is required"
+msgstr ""
+
+#: ../app/Controllers/Ajax/AjaxListingType.php:138
+msgid "No type found to delete"
+msgstr ""
+
+#: ../app/Controllers/Ajax/Checkout.php:104
+msgid "Session error"
+msgstr ""
+
+#: ../app/Controllers/Ajax/Checkout.php:99
+msgid "Error to create payment."
+msgstr ""
+
+#: ../app/Controllers/Ajax/Import.php:41
+msgid "Item is empty."
+msgstr ""
+
+#: ../app/Controllers/Ajax/Import.php:68
+msgid "%s is already exist"
+msgstr ""
+
+#: ../app/Controllers/Ajax/Import.php:63
+msgid "Error!!!"
+msgstr ""
+
+#: ../app/Controllers/Ajax/Import.php:61
+msgid "%s Successfully created"
+msgstr ""
+
+#. translators: $1: customer name, $2 customer id, $3: customer email
+#: ../app/Controllers/Ajax/InlineSearchAjax.php:78
+msgid "%1$s (#%2$s &ndash; %3$s)"
+msgstr ""
+
+#: ../app/Controllers/Ajax/InlineSearchAjax.php:159
+msgid "Empty listing title"
+msgstr ""
+
+#: ../app/Controllers/Ajax/ListingAdminAjax.php:60
+msgid "Session Expired"
+msgstr ""
+
+#: ../app/Controllers/Ajax/ListingAdminAjax.php:57
+msgid "Please select all field"
+msgstr ""
+
+#: ../app/Controllers/Ajax/ListingAdminAjax.php:54, ../app/Controllers/Ajax/PublicUser.php:931
+msgid "Error!!"
+msgstr ""
+
+#: ../app/Controllers/Ajax/ListingAdminAjax.php:51
+msgid "Successfully sent"
+msgstr ""
+
+#: ../app/Controllers/Ajax/ListingAdminAjax.php:78
+msgid "Post with given ID does not exist."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:76, ../app/Controllers/Ajax/PublicUser.php:127
+msgid "Authentication error!!"
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:235
+msgid "You have successfully logged in."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:326, ../app/Controllers/Ajax/PublicUser.php:317, ../app/Controllers/Ajax/PublicUser.php:277
+msgid "Please add the required field."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:321, ../app/Controllers/Ajax/PublicUser.php:281, ../app/Controllers/Hooks/Comments.php:168, ../app/Controllers/Hooks/Comments.php:170
+msgid "You have already a review."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:314, ../app/Controllers/Ajax/PublicUser.php:274
+msgid "Your rating has been updated."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:248, ../app/Controllers/Hooks/Comments.php:143, ../app/Controllers/Hooks/Comments.php:145
+msgid "Ad author can't post rating."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:382
+msgid "Successfully posted"
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:378
+msgid "Unknown error"
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:435
+msgid "Invalid email address."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:440
+msgid "Sorry, that email address already exists!"
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:451
+msgid "The password field is empty."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:456
+msgid "The two passwords you entered don't match."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:512
+msgid "Your account has been updated."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:598, ../app/Controllers/Ajax/PublicUser.php:668
+msgid "Need to fill all the required field."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:595, ../app/Controllers/Ajax/PublicUser.php:664
+msgid "Invalid Captcha: Please try again."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:592, ../app/Controllers/Ajax/PublicUser.php:657
+msgid "Your message sent successfully."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:628
+msgid "Permission Error."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:625
+msgid "Successfully deleted."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:660
+msgid "Sorry! Please try again."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:702
+msgid "Session Expired!"
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:699
+msgid "Add post id to remove"
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:697
+msgid "Successfully removed"
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:938
+msgid "Session Error !!"
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:741
+msgid "Image is required. Please select an image."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:761
+msgid "Category is not valid"
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:765
+msgid "Category not selected"
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:840
+msgid "A new account is registered, password is sent to your email(%s)."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:923
+msgid "Successfully updated !!!"
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:920
+msgid "Thank you for submitting your ad!"
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:732
+msgid "Category not selected. <a href=\"%s\">Click here to set category</a>"
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:722
+msgid "Please agree with the terms and conditions."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:975
+msgid "Category not selected."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:1008
+msgid "Type is not selected."
+msgstr ""
+
+#: ../app/Controllers/Ajax/PublicUser.php:1005
+msgid "No category found."
+msgstr ""
+
+#: ../app/Controllers/Gutenberg/ListingsAjaxController.php:161
+msgid "Compare"
+msgstr ""
+
+#: ../app/Controllers/Gutenberg/ListingsAjaxController.php:171
+msgid "Quick View"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminHooks.php:35
+msgid "Addon & Theme"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminHooks.php:65
+msgid "Buy Now"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AdminHooks.php:67
+msgid "Live Demo"
+msgstr ""
+
+#: ../app/Controllers/Hooks/AppliedBothEndHooks.php:106
+msgid "Payment made pending confirmation."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AppliedBothEndHooks.php:104
+msgid "Redirecting to paypal."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AppliedBothEndHooks.php:123
+msgid "No pricing selected to make payment."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AppliedBothEndHooks.php:126
+msgid "No payment Gateway selected."
+msgstr ""
+
+#: ../app/Controllers/Hooks/AppliedBothEndHooks.php:130
+msgid "No ad selected to make payment."
+msgstr ""
+
+#. translators: $1: Date created, $2 Time created
+#: ../app/Controllers/Hooks/Comments.php:82
+msgid "added on %1$s at %2$s"
+msgstr ""
+
+#. translators: %s: note author
+#: ../app/Controllers/Hooks/Comments.php:88, ../views/html-order-notes.php:37
+msgid "by %s"
+msgstr ""
+
+#: ../app/Controllers/Hooks/Comments.php:92, ../views/html-order-notes.php:41
+msgid "Delete note"
+msgstr ""
+
+#: ../app/Controllers/Hooks/Comments.php:162, ../app/Controllers/Hooks/Comments.php:164
+msgid "Only ajax can update the comment."
+msgstr ""
+
+#: ../app/Controllers/Hooks/Comments.php:190, ../app/Controllers/Hooks/Comments.php:192
+msgid "Please rate the listing."
+msgstr ""
+
+#: ../app/Controllers/Hooks/Comments.php:210, ../app/Controllers/Hooks/Comments.php:212
+msgid "Please add the review title."
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:207
+msgid "View all my listings"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:231
+msgid "Visit Website"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:283
+msgid "Contact Number"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:292
+msgid "Click to reveal phone number"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:328, ../views/settings/advanced-settings.php:130
+msgid "Promote"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:359, ../templates/myaccount/favourite-listings.php:39
+msgid "Delete"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:372
+msgid "Add to favourite"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:412
+msgid "Update Account"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:436
+msgid "Select state"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:464, ../app/Controllers/Hooks/TemplateHooks.php:491, ../templates/listing-form/contact.php:44, ../templates/listing-form/contact.php:72, ../templates/listing-form/contact.php:99
+msgid "Select location"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:714
+msgid "Apply filters"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:726, ../templates/listing/actions.php:70, ../templates/listing/email-to-seller-form.php:30
+msgid "Submit"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:755, ../templates/myaccount/form-edit-account.php:45
+msgid "First Name"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:766, ../templates/myaccount/form-edit-account.php:54
+msgid "Last Name"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:783
+msgid "Phone Number"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:864
+msgid "Relevance"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:1201
+msgid "Please review your order, and click Purchase once you are ready to proceed."
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:1215
+msgid "Given Listing Id is not a valid listing"
+msgstr ""
+
+#: ../app/Controllers/Hooks/TemplateHooks.php:1235
+msgid "Go to My Account"
+msgstr ""
+
+#: ../app/Gateways/Offline/GatewayOffline.php:19
+msgid "Offline Payout"
+msgstr ""
+
+#: ../app/Gateways/Offline/GatewayOffline.php:20
+msgid "Offline"
+msgstr ""
+
+#: ../app/Gateways/Offline/GatewayOffline.php:21
+msgid "Note: There's nothing automatic in this offline payment system, you should use this when you don't want to collect money automatically. So once money is in your bank account you change the status of the order manually under \"Payment History\" menu."
+msgstr ""
+
+#: ../app/Gateways/Offline/GatewayOffline.php:40, ../app/Gateways/Paypal/GatewayPaypal.php:286
+msgid "Enable/Disable"
+msgstr ""
+
+#: ../app/Gateways/Offline/GatewayOffline.php:42
+msgid "Enable Offline Payment"
+msgstr ""
+
+#: ../app/Gateways/Offline/GatewayOffline.php:47, ../app/Gateways/Paypal/GatewayPaypal.php:294
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: ../app/Gateways/Offline/GatewayOffline.php:54, ../app/Gateways/Paypal/GatewayPaypal.php:299
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: ../app/Gateways/Offline/GatewayOffline.php:60
+msgid "Instructions"
+msgstr ""
+
+#: ../app/Gateways/Offline/GatewayOffline.php:90, ../app/Gateways/Paypal/GatewayPaypal.php:450
+msgid "Payment not found"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:28
+msgid "Proceed to PayPal"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:29
+msgid "PayPal"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:30
+msgid "PayPal Standard sends customers to PayPal to enter their payment information. PayPal IPN requires fsockopen/cURL support to update order statuses after payment. Check the <a href=\"%s\">system status</a> page for more details."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:77
+msgid "PayPal acceptance mark"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:81
+msgid "What is PayPal?"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:273
+msgid "Gateway disabled"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:274
+msgid "PayPal does not support your store currency."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:288
+msgid "Enable PayPal Standard"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:301
+msgid "Pay via PayPal; you can pay with your credit card if you don't have a PayPal account."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:305
+msgid "PayPal email"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:307
+msgid "Please enter your PayPal email address; this is needed in order to take payment."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:313
+msgid "Advanced options"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:318
+msgid "PayPal sandbox"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:320
+msgid "Enable PayPal sandbox"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:322
+msgid "PayPal sandbox can be used to test payments. Sign up for a <a href=\"%s\">developer account</a>."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:325
+msgid "IPN Email Notifications"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:327
+msgid "Enable IPN email notifications"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:329
+msgid "Send notifications when an IPN is received from PayPal indicating refunds, chargebacks and cancellations."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:332
+msgid "Receiver email"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:334
+msgid "If your main PayPal email differs from the PayPal email entered above, input your main receiver email for your PayPal account here. This is used to validate IPN requests."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:346
+msgid "Payment action"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:349
+msgid "Choose whether you wish to capture funds immediately or authorize payment only."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:352
+msgid "Capture"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:353
+msgid "Authorize"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:357
+msgid "Page style"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:359
+msgid "Optionally enter the name of the page style you wish to use. These are defined within your PayPal account. This affects classic PayPal checkout screens."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:361, ../app/Gateways/Paypal/GatewayPaypal.php:368, ../app/Gateways/Paypal/GatewayPaypal.php:380, ../app/Gateways/Paypal/GatewayPaypal.php:387, ../app/Gateways/Paypal/GatewayPaypal.php:394, ../app/Gateways/Paypal/GatewayPaypal.php:401, ../app/Gateways/Paypal/GatewayPaypal.php:408, ../app/Gateways/Paypal/GatewayPaypal.php:415
+msgid "Optional"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:364
+msgid "Image url"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:366
+msgid "Optionally enter the URL to a 150x50px image displayed as your logo in the upper left corner of the PayPal checkout pages."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:371
+msgid "API credentials"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:373
+msgid "Enter your PayPal API credentials to process refunds via PayPal. Learn how to access your <a href=\"%s\">PayPal API Credentials</a>."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:376
+msgid "Live API username"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:378, ../app/Gateways/Paypal/GatewayPaypal.php:385, ../app/Gateways/Paypal/GatewayPaypal.php:392, ../app/Gateways/Paypal/GatewayPaypal.php:399, ../app/Gateways/Paypal/GatewayPaypal.php:406, ../app/Gateways/Paypal/GatewayPaypal.php:413
+msgid "Get your API credentials from PayPal."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:383
+msgid "Live API password"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:390
+msgid "Live API signature"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:397
+msgid "Sandbox API username"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:404
+msgid "Sandbox API password"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:411
+msgid "Sandbox API signature"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:549
+msgid "Aborting, Order #%d is already complete."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:573
+msgid "Payment pending (%s)."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:570
+msgid "Payment authorized. Change payment status to processing or complete to capture funds."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:566
+msgid "IPN payment completed"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:596
+msgid "Payment %s via IPN."
+msgstr ""
+
+#. translators: %s: order link.
+#: ../app/Gateways/Paypal/GatewayPaypal.php:640
+msgid "Payment for cancelled order %s received"
+msgstr ""
+
+#. translators: %s: order ID.
+#: ../app/Gateways/Paypal/GatewayPaypal.php:642
+msgid "Order #%s has been marked paid by PayPal IPN, but was previously cancelled. Admin handling required."
+msgstr ""
+
+#. translators: %s: currency code.
+#: ../app/Gateways/Paypal/GatewayPaypal.php:706
+msgid "Validation error: PayPal currencies do not match (code %s)."
+msgstr ""
+
+#. translators: %s: Amount.
+#: ../app/Gateways/Paypal/GatewayPaypal.php:724
+msgid "Validation error: PayPal amounts do not match (gross %s)."
+msgstr ""
+
+#. translators: %s: email address .
+#: ../app/Gateways/Paypal/GatewayPaypal.php:743
+msgid "Validation error: PayPal IPN response from a different email address (%s)."
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:796
+msgid "Payment could not captured: %s"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:807
+msgid "Payment of %1$s was captured - Auth ID: %2$s, Transaction ID: %3$s"
+msgstr ""
+
+#: ../app/Gateways/Paypal/GatewayPaypal.php:813
+msgid "Payment could not captured - Auth ID: %1$s, Status: %2$s"
+msgstr ""
+
+#. translators: This is a comma-separated list of very common words that should be excluded from a search, like a, an, and the. These are usually called "stopwords". You should not simply translate these individual words into your load_language. Instead, look for and provide commonly accepted stopwords in your load_language.
+#: ../app/Models/DataStores/DataStoreWP.php:477
+msgctxt "Comma-separated list of search stopwords in your load_language"
+msgid "about,an,are,as,at,be,by,com,for,from,how,in,is,it,of,on,or,that,the,this,to,was,what,when,where,who,will,with,www"
+msgstr ""
+
+#: ../app/Models/DataStores/ListingDataStoreCPT.php:57
+msgid "Invalid listing."
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/AddMetaBox.php:48
+msgid "Listing Details"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/AddMetaBox.php:56, ../templates/listing-form/contact.php:32
+msgid "Contact Details"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/AddMetaBox.php:64
+msgid "Static Report"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/AddMetaBox.php:98
+msgid "Pricing Options"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/AddMetaBox.php:109
+msgid "Oder Data"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/AddMetaBox.php:118
+msgid "Items"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/AddMetaBox.php:127
+msgid "Order Actions"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/AddMetaBox.php:135
+msgid "Order notes"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/AddTermMetaField.php:140
+msgid "Fields"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/AddTermMetaField.php:234, ../app/Controllers/Admin/Meta/AddTermMetaField.php:321, ../app/Controllers/Admin/Meta/AddTermMetaField.php:413, ../app/Controllers/Admin/Meta/AddTermMetaField.php:518
+msgid "Types"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/AddTermMetaField.php:309, ../app/Controllers/Admin/Meta/AddTermMetaField.php:390
+msgid "Enter an integer value for this order"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/AddTermMetaField.php:337, ../app/Controllers/Admin/Meta/AddTermMetaField.php:435
+msgid "Price Units"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/AddTermMetaField.php:351, ../app/Controllers/Admin/Meta/AddTermMetaField.php:455
+msgid "Image"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/ListingMetaColumn.php:23
+msgid "Views"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/ListingMetaColumn.php:26
+msgid "Posted Date"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/ListingMetaColumn.php:27, ../templates/myaccount/my-listings.php:75, ../templates/myaccount/my-listings.php:70
+msgid "Expires on"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/ListingMetaColumn.php:28, ../app/Controllers/Admin/Meta/ListingSubmitBoxMice.php:74, ../app/Controllers/Admin/Meta/OrderMetaColumn.php:69, ../templates/myaccount/my-listings.php:64, ../templates/myaccount/payment-history.php:28
+msgid "Status"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/ListingMetaColumn.php:53
+msgctxt "%s = human-readable time difference"
+msgid "%s ago"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/ListingMetaColumn.php:105
+msgid "Filter by location"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/ListingMetaColumn.php:113
+msgid "Filter by category"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/ListingMetaColumn.php:125
+msgid "All listings"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/ListingMetaColumn.php:136
+msgid "All Status"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/ListingSubmitBoxMice.php:35
+msgid "Overwrite Default"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/ListingSubmitBoxMice.php:56
+msgid "Mark as"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/OrderMetaColumn.php:64
+msgid "Order ID"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/OrderMetaColumn.php:66, ../templates/myaccount/payment-history.php:27
+msgid "Total"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/OrderMetaColumn.php:67
+msgid "Transaction ID"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/OrderMetaColumn.php:90
+msgid "Guest"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/OrderMetaColumn.php:113, ../templates/myaccount/payment-history.php:43
+msgid "Pay via <strong>%s</strong>"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/OrderMetaColumn.php:158
+msgid "All payments"
+msgstr ""
+
+#: ../app/Controllers/Admin/Meta/PricingMetaColumn.php:51
+msgid "Free"
+msgstr ""
+
+#: ../templates/categories/categories-grid.php:40, ../templates/categories/categories-grid.php:53, ../templates/categories/categories-grid.php:61
+msgid "View all posts in %s"
+msgstr ""
+
+#: ../templates/checkout/payment-info.php:21, ../templates/emails/email-order-details.php:42
+msgid "PAYMENT"
+msgstr ""
+
+#: ../templates/checkout/payment-info.php:26, ../templates/emails/email-order-details.php:46
+msgid "Total Amount"
+msgstr ""
+
+#: ../templates/checkout/payment-info.php:44, ../templates/emails/email-order-details.php:62
+msgid "Payment Method"
+msgstr ""
+
+#: ../templates/checkout/payment-info.php:51, ../templates/emails/email-order-details.php:68
+msgid "Payment Status"
+msgstr ""
+
+#: ../templates/checkout/payment-info.php:61
+msgid "Order Key"
+msgstr ""
+
+#: ../templates/checkout/payment-info.php:56, ../templates/emails/email-order-details.php:74
+msgid "Transaction Key"
+msgstr ""
+
+#: ../templates/checkout/payment-methods.php:15
+msgid "Choose payment method"
+msgstr ""
+
+#: ../templates/checkout/payment-methods.php:28
+msgid "No payment method found."
+msgstr ""
+
+#: ../templates/checkout/pricing-info.php:18
+msgid "Details"
+msgstr ""
+
+#: ../templates/checkout/pricing-info.php:27
+msgid "Pricing Option "
+msgstr ""
+
+#: ../templates/checkout/pricing-info.php:31
+msgid "Duration "
+msgstr ""
+
+#: ../templates/checkout/promotions.php:19
+msgid "Pricing Option"
+msgstr ""
+
+#: ../templates/checkout/promotions.php:21
+msgid "Visibility"
+msgstr ""
+
+#: ../templates/checkout/promotions.php:22
+msgid "Price [%s %s]"
+msgstr ""
+
+#: ../templates/checkout/promotions.php:68
+msgid "No promotion plan found."
+msgstr ""
+
+#: ../templates/checkout/promotions.php:38
+msgid "Pricing Option:"
+msgstr ""
+
+#: ../templates/checkout/promotions.php:45
+msgid "Description:"
+msgstr ""
+
+#: ../templates/checkout/promotions.php:49
+msgid "Visibility:"
+msgstr ""
+
+#: ../templates/checkout/promotions.php:61
+msgid "Price [%s %s]:"
+msgstr ""
+
+#: ../templates/checkout/terms-conditions.php:34, ../templates/listing-form/terms-conditions.php:33
+msgid "This field is required"
+msgstr ""
+
+#: ../templates/emails/contact-email-to-admin.php:27, ../templates/emails/listing-contact-email-to-admin.php:26, ../templates/emails/listing-expired-email-to-admin.php:25, ../templates/emails/listing-submitted-email-to-admin.php:23, ../templates/emails/listing-updated-email-to-admin.php:23, ../templates/emails/order-completed-email-to-admin.php:27, ../templates/emails/report-abuse-email-to-admin.php:27
+msgid "Hi Administrator,"
+msgstr ""
+
+#: ../templates/emails/contact-email-to-admin.php:28
+msgid "A contact request is received at your <a href=\"%s\">%s.</a>"
+msgstr ""
+
+#: ../templates/emails/contact-email-to-admin.php:29
+msgid "<strong>Name :</strong> %s"
+msgstr ""
+
+#: ../templates/emails/contact-email-to-admin.php:30
+msgid "<strong>Email :</strong> %s"
+msgstr ""
+
+#: ../templates/emails/contact-email-to-admin.php:32
+msgid "<strong>Phone :</strong> %s"
+msgstr ""
+
+#: ../templates/emails/contact-email-to-admin.php:34
+msgid "<strong>Message :</strong> %s"
+msgstr ""
+
+#: ../templates/emails/email-order-customer-details.php:14
+msgid "User details"
+msgstr ""
+
+#. translators: %s: Order ID.
+#: ../templates/emails/email-order-details.php:34
+msgid "[Order #%s]"
+msgstr ""
+
+#: ../templates/emails/listing-contact-email-to-admin.php:27
+msgid "A listing on your website %s received a message."
+msgstr ""
+
+#: ../templates/emails/listing-contact-email-to-admin.php:28, ../templates/emails/listing-expired-email-to-admin.php:27, ../templates/emails/listing-submitted-email-to-admin.php:25
+msgid "<strong>Listing :</strong> <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: ../templates/emails/listing-contact-email-to-admin.php:29, ../templates/emails/report-abuse-email-to-admin.php:29
+msgid "<strong>Sender name:</strong> %s"
+msgstr ""
+
+#: ../templates/emails/listing-contact-email-to-admin.php:30, ../templates/emails/report-abuse-email-to-admin.php:30
+msgid "<strong>Sender email:</strong> %s"
+msgstr ""
+
+#: ../templates/emails/listing-contact-email-to-admin.php:31, ../templates/emails/report-abuse-email-to-admin.php:31
+msgid "<strong>Sender message:</strong> %s"
+msgstr ""
+
+#. translators: %s: Customer first name
+#: ../templates/emails/listing-contact-email-to-owner.php:25, ../templates/emails/listing-expired-email-to-owner.php:25, ../templates/emails/listing-moderation-email-to-owner.php:25, ../templates/emails/listing-published-email-to-owner.php:22, ../templates/emails/listing-renewal-email-to-owner.php:22, ../templates/emails/listing-renewal-reminder-email-to-owner.php:21, ../templates/emails/listing-submitted-email-to-owner.php:24, ../templates/emails/order-completed-email-to-customer.php:28, ../templates/emails/order-created-email-to-customer.php:28, ../templates/emails/user-reset-password-email-to-user.php:27
+msgid "Hi %s,"
+msgstr ""
+
+#: ../templates/emails/listing-contact-email-to-owner.php:26
+msgid "You have received a reply from your listing at <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: ../templates/emails/listing-contact-email-to-owner.php:27
+msgid "<strong>Name:</strong> %s"
+msgstr ""
+
+#: ../templates/emails/listing-contact-email-to-owner.php:28
+msgid "<strong>Email:</strong> %s"
+msgstr ""
+
+#: ../templates/emails/listing-contact-email-to-owner.php:29
+msgid "<strong>Message:</strong> %s"
+msgstr ""
+
+#: ../templates/emails/listing-expired-email-to-admin.php:26
+msgid "This notification was for the listing on the website <strong>%s</strong> \"{listing_title}\" and is expired."
+msgstr ""
+
+#: ../templates/emails/listing-expired-email-to-admin.php:28
+msgid "<strong>Expired on:</strong> %s"
+msgstr ""
+
+#: ../templates/emails/listing-expired-email-to-admin.php:29
+msgid "Please do not respond to this message. It is automatically generated and is for information purposes only."
+msgstr ""
+
+#: ../templates/emails/listing-expired-email-to-owner.php:26
+msgid "Your listing <strong>%s</strong> is expired on %s. You can renew it here: %s"
+msgstr ""
+
+#: ../templates/emails/listing-moderation-email-to-owner.php:26
+msgid "You have received this email from the moderator to improve your listing. Your listing is <a href=\"%s\">%s</a>"
+msgstr ""
+
+#: ../templates/emails/listing-moderation-email-to-owner.php:27
+msgid "Moderation:"
+msgstr ""
+
+#: ../templates/emails/listing-published-email-to-owner.php:23
+msgid "Your listing <strong>%1$s</strong> is now available at <a href=\"%2$s\">%1$s</a> and can be viewed by the public."
+msgstr ""
+
+#: ../templates/emails/listing-renewal-email-to-owner.php:23
+msgid "Your listing <strong>%s</strong> is about to expire at %s. You can renew it here: %s"
+msgstr ""
+
+#: ../templates/emails/listing-renewal-reminder-email-to-owner.php:22
+msgid "We've noticed that you haven't renewed your listing <strong>%s</strong> at %s and just wanted to remind you that it expired on <strong>%s</strong>. Please remember you can still renew it here: %s"
+msgstr ""
+
+#: ../templates/emails/listing-submitted-email-to-admin.php:24
+msgid "You have received a new listing on the website %s."
+msgstr ""
+
+#: ../templates/emails/listing-submitted-email-to-owner.php:25
+msgid "Your listing <strong>%s</strong> has been received and it's pending review. This review process could take up to 48 hours."
+msgstr ""
+
+#: ../templates/emails/listing-updated-email-to-admin.php:24
+msgid "Listing <a href=\"%s\">%s</a> is updated on the website %s."
+msgstr ""
+
+#: ../templates/emails/order-completed-email-to-admin.php:28, ../templates/emails/order-completed-email-to-customer.php:31
+msgid "Order <strong>#%d</strong> is completed."
+msgstr ""
+
+#. translators: %s: Site title
+#: ../templates/emails/order-completed-email-to-customer.php:30
+msgid "We have finished processing your order."
+msgstr ""
+
+#. translators: %s: Customer billing full name
+#: ../templates/emails/order-created-email-to-admin.php:28
+msgid "You’ve received the following order from %s:"
+msgstr ""
+
+#: ../templates/emails/order-created-email-to-customer.php:29
+msgid "This notification was for the order <strong>#%s</strong> on the website <strong>%s</strong>"
+msgstr ""
+
+#: ../templates/emails/order-created-email-to-customer.php:30
+msgid "You can access the order details directly by clicking on the link below after logging in your account: %s"
+msgstr ""
+
+#: ../templates/emails/report-abuse-email-to-admin.php:28
+msgid "This is an email abuse report for a listing at <a href=\"%s\">%s</a>."
+msgstr ""
+
+#. translators: %s: Customer billing full name
+#: ../templates/emails/user-new-registration-email-to-admin.php:25
+msgid "Hi Admin"
+msgstr ""
+
+#: ../templates/emails/user-new-registration-email-to-admin.php:26
+msgid "%s ( %s ) has registered to your site %s."
+msgstr ""
+
+#: ../templates/emails/user-new-registration-email-to-admin.php:27, ../templates/emails/user-new-registration-email-to-user.php:32, ../templates/emails/user-reset-password-email-to-user.php:39
+msgid "Thanks for reading."
+msgstr ""
+
+#. translators: %s: Customer billing full name
+#: ../templates/emails/user-new-registration-email-to-user.php:26
+msgid "Hi %s"
+msgstr ""
+
+#: ../templates/emails/user-new-registration-email-to-user.php:27
+msgid "You are successfully registered to this site %s"
+msgstr ""
+
+#: ../templates/emails/user-new-registration-email-to-user.php:29, ../templates/emails/user-reset-password-email-to-user.php:29
+msgid "Username: %s"
+msgstr ""
+
+#: ../templates/emails/user-new-registration-email-to-user.php:30
+msgid "Password: %s"
+msgstr ""
+
+#: ../templates/emails/user-reset-password-email-to-user.php:28
+msgid "Someone has requested a new password for the following account on %s:"
+msgstr ""
+
+#: ../templates/emails/user-reset-password-email-to-user.php:30
+msgid "If you didn't make this request, just ignore this email. If you'd like to proceed:"
+msgstr ""
+
+#: ../templates/emails/user-reset-password-email-to-user.php:36
+msgid "Click here to reset your password"
+msgstr ""
+
+#: ../templates/global/form-login.php:36, ../templates/myaccount/form-login.php:25, ../templates/myaccount/form-lost-password.php:22
+msgid "Username or E-mail"
+msgstr ""
+
+#: ../templates/global/form-login.php:45, ../templates/myaccount/form-login.php:35, ../templates/myaccount/form-login.php:96
+msgid "Password"
+msgstr ""
+
+#: ../templates/global/form-login.php:55, ../templates/myaccount/form-login.php:20, ../templates/myaccount/form-login.php:46
+msgid "Login"
+msgstr ""
+
+#: ../templates/global/form-login.php:60, ../templates/myaccount/form-login.php:51
+msgid "Remember Me"
+msgstr ""
+
+#: ../templates/global/form-login.php:68, ../templates/myaccount/form-login.php:67, ../templates/myaccount/form-login.php:109
+msgid "Register"
+msgstr ""
+
+#: ../templates/global/form-login.php:71, ../templates/myaccount/form-login.php:57
+msgid "Forgot your password?"
+msgstr ""
+
+#: ../templates/global/pagination.php:23
+msgid "Previous"
+msgstr ""
+
+#: ../templates/global/pagination.php:29
+msgid "Current Page"
+msgstr ""
+
+#: ../templates/global/pagination.php:40
+msgid "Next"
+msgstr ""
+
+#: ../templates/listing/actions.php:59
+msgid "Your Complaint"
+msgstr ""
+
+#: ../templates/listing/actions.php:62
+msgid "Message... "
+msgstr ""
+
+#: ../templates/listing/business-hours.php:89
+msgid "Closed"
+msgstr ""
+
+#: ../templates/listing/business-hours.php:103
+msgid "Open (24 Hours)"
+msgstr ""
+
+#: ../templates/listing/email-to-seller-form.php:12
+msgid "Name *"
+msgstr ""
+
+#: ../templates/listing/email-to-seller-form.php:17
+msgid "Email*"
+msgstr ""
+
+#: ../templates/listing/email-to-seller-form.php:22
+msgid "Message*"
+msgstr ""
+
+#: ../templates/listing/meta.php:23
+msgid "by "
+msgstr ""
+
+#: ../templates/listing/meta.php:45, ../templates/widgets/listings.php:59
+msgid "%s view"
+msgid_plural "%s views"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/listing/related-listings.php:17
+msgid "Related Listing"
+msgstr ""
+
+#: ../templates/listing/social-profiles.php:22
+msgid "Social Profiles:"
+msgstr ""
+
+#: ../templates/listing/user-information.php:15
+msgid "Contact"
+msgstr ""
+
+#: ../templates/listing-form/business-hours.php:23
+msgid "Open Hours"
+msgstr ""
+
+#: ../templates/listing-form/business-hours.php:28
+msgid "Active Opening Hours"
+msgstr ""
+
+#: ../templates/listing-form/business-hours.php:34
+msgid "Define your weekly opening hours"
+msgstr ""
+
+#: ../templates/listing-form/business-hours.php:52, ../templates/listing-form/business-hours.php:215
+msgid "Want to set a time slot? (Default All day long)"
+msgstr ""
+
+#: ../templates/listing-form/business-hours.php:111
+msgid "Special Hours - overrides"
+msgstr ""
+
+#: ../templates/listing-form/business-hours.php:118
+msgid "Define your weekly opening hours to override"
+msgstr ""
+
+#: ../templates/listing-form/business-hours.php:142
+msgid "Want to set atime slot? (Default All day long)"
+msgstr ""
+
+#: ../templates/listing-form/category-section.php:13
+msgid "Selected Category"
+msgstr ""
+
+#: ../templates/listing-form/category-section.php:30
+msgid "Change Category"
+msgstr ""
+
+#: ../templates/listing-form/category.php:79
+msgid "Sub Category"
+msgstr ""
+
+#: ../templates/listing-form/contact.php:159
+msgid "Whatsapp number with your country code. e.g.+1xxxxxxxxxx"
+msgstr ""
+
+#: ../templates/listing-form/contact.php:171
+msgid "This will be your user name."
+msgstr ""
+
+#: ../templates/listing-form/gallery.php:17
+msgid "Images"
+msgstr ""
+
+#: ../templates/listing-form/information.php:32
+msgid "Listing Information"
+msgstr ""
+
+#: ../templates/listing-form/information.php:48, ../templates/listing-form/information.php:159
+msgid "Character limit <span class='target-limit'>%s</span>"
+msgstr ""
+
+#: ../templates/listing-form/price-unit.php:21
+msgid "Price Unit"
+msgstr ""
+
+#: ../templates/listing-form/price-unit.php:23
+msgid "No unit"
+msgstr ""
+
+#: ../templates/listing-form/video-urls.php:23
+msgid "Given url is not a valid YouTube or Vimeo URL"
+msgstr ""
+
+#: ../templates/listing-form/video-urls.php:24
+msgid "Only YouTube & Vimeo URL"
+msgstr ""
+
+#: ../templates/myaccount/favourite-listings.php:49, ../templates/myaccount/my-listings.php:97
+msgid "No listing found."
+msgstr ""
+
+#: ../templates/myaccount/form-edit-account.php:37, ../templates/myaccount/form-login.php:75
+msgid "Username"
+msgstr ""
+
+#: ../templates/myaccount/form-edit-account.php:63
+msgid "E-mail Address"
+msgstr ""
+
+#: ../templates/myaccount/form-edit-account.php:73
+msgid "Profile Picture"
+msgstr ""
+
+#: ../templates/myaccount/form-edit-account.php:81
+msgid "<a href=\"%s\">Change on Gravatar</a>."
+msgstr ""
+
+#: ../templates/myaccount/form-edit-account.php:82
+msgid "https://en.gravatar.com/"
+msgstr ""
+
+#: ../templates/myaccount/form-edit-account.php:90
+msgid "Add Logo"
+msgstr ""
+
+#: ../templates/myaccount/form-edit-account.php:91
+msgid "Delete Logo"
+msgstr ""
+
+#: ../templates/myaccount/form-edit-account.php:109
+msgid "Change Password"
+msgstr ""
+
+#: ../templates/myaccount/form-edit-account.php:116
+msgid "New Password"
+msgstr ""
+
+#: ../templates/myaccount/form-edit-account.php:126
+msgid "Confirm Password"
+msgstr ""
+
+#: ../templates/myaccount/form-edit-account.php:144
+msgid "Whatsapp phone"
+msgstr ""
+
+#: ../templates/myaccount/form-login.php:81
+msgid "Username cannot be changed."
+msgstr ""
+
+#: ../templates/myaccount/form-login.php:86
+msgid "Email address"
+msgstr ""
+
+#: ../templates/myaccount/form-lost-password.php:19
+msgid "Lost your password? Please enter your username or email address. You will receive a link to create a new password via email."
+msgstr ""
+
+#: ../templates/myaccount/form-lost-password.php:30, ../templates/myaccount/form-reset-password.php:48
+msgid "Reset Password"
+msgstr ""
+
+#: ../templates/myaccount/form-reset-password.php:22
+msgid "Enter a new password below."
+msgstr ""
+
+#: ../templates/myaccount/form-reset-password.php:29
+msgid "New password"
+msgstr ""
+
+#: ../templates/myaccount/form-reset-password.php:36
+msgid "Re-enter new password"
+msgstr ""
+
+#: ../templates/myaccount/lost-password-confirmation.php:19
+msgid "A password reset email has been sent to the email address on file for your account, but may take several minutes to show up in your inbox. Please wait at least 10 minutes before attempting another reset."
+msgstr ""
+
+#: ../templates/myaccount/my-listings.php:28, ../views/settings/general-settings.php:80, ../views/widgets/categories.php:34
+msgid "Name"
+msgstr ""
+
+#: ../templates/myaccount/my-listings.php:30
+msgid "Search by title"
+msgstr ""
+
+#: ../templates/myaccount/my-listings.php:33, ../templates/widgets/search/inline.php:129
+msgid "Search"
+msgstr ""
+
+#: ../templates/myaccount/payment-history.php:26
+msgid "#"
+msgstr ""
+
+#: ../templates/listing/loop/no-listings-found.php:10
+msgid "No Listings were found matching your selection."
+msgstr ""
+
+#: ../templates/listing/loop/orderby.php:21
+msgid "Listing order"
+msgstr ""
+
+#. translators: 1: first result 2: last result 3: total results
+#: ../templates/listing/loop/result-count.php:22
+msgctxt "with first and last result"
+msgid "Showing %1$d&ndash;%2$d of %3$d result"
+msgid_plural "Showing %1$d&ndash;%2$d of %3$d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/listing/loop/result-count.php:17
+msgid "Showing all %d result"
+msgid_plural "Showing all %d results"
+msgstr[0] ""
+msgstr[1] ""
+
+#: ../templates/listing/loop/result-count.php:14
+msgid "Showing the single result"
+msgstr ""
+
+#: ../templates/widgets/search/inline.php:80, ../templates/widgets/search/vertical.php:76
+msgid "Select type"
+msgstr ""
+
+#: ../templates/widgets/search/inline.php:119, ../templates/widgets/search/vertical.php:19
+msgid "Enter your keyword here ..."
+msgstr ""
+
+#: ../templates/widgets/search/vertical.php:74
+msgid "Select Type"
+msgstr ""
+
+#: ../templates/widgets/search/vertical.php:118
+msgid "Reset"
+msgstr ""
+
+#: ../views/html-order-notes.php:48
+msgid "There are no notes yet."
+msgstr ""
+
+#: ../views/html-order-notes.php:31
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: ../views/settings/account-settings.php:15
+msgid "Account creation"
+msgstr ""
+
+#: ../views/settings/account-settings.php:18
+msgid "Allow visitor to create an account on the \"My account\" page"
+msgstr ""
+
+#: ../views/settings/account-settings.php:21
+msgid "Hide Name and phone number"
+msgstr ""
+
+#: ../views/settings/account-settings.php:23
+msgid "Hide Name and phone number at registration form"
+msgstr ""
+
+#: ../views/settings/account-settings.php:26
+msgid "New User Default Role"
+msgstr ""
+
+#: ../views/settings/account-settings.php:29
+msgid "Default Role as wordpress"
+msgstr ""
+
+#: ../views/settings/account-settings.php:34
+msgid "Social Login shortcode"
+msgstr ""
+
+#: ../views/settings/account-settings.php:37
+msgid "Add your social login shortcode, which will run at <em style=\"color:red\">rtcl_login_form</em> hook. <br><strong style=\"color: green;\">We will support shortcode from any third party plugin.</strong><br> <strong>Example: [TheChamp-Login], [miniorange_social_login theme=\"default\"]</strong>"
+msgstr ""
+
+#: ../views/settings/account-settings.php:48, ../views/settings/account-settings.php:72
+msgid "Terms and conditions"
+msgstr ""
+
+#: ../views/settings/account-settings.php:53
+msgid "Enable Listing Terms and conditions"
+msgstr ""
+
+#: ../views/settings/account-settings.php:55
+msgid "Display and require user agreement to Terms and Conditions for Listing form."
+msgstr ""
+
+#: ../views/settings/account-settings.php:58
+msgid "Enable Terms and conditions at checkout page"
+msgstr ""
+
+#: ../views/settings/account-settings.php:60
+msgid "Display and require user agreement to Terms and Conditions at checkout page."
+msgstr ""
+
+#: ../views/settings/account-settings.php:63
+msgid "Terms and conditions page"
+msgstr ""
+
+#: ../views/settings/account-settings.php:64
+msgid "Choose a page to act as your Terms and conditions."
+msgstr ""
+
+#: ../views/settings/account-settings.php:67, ../views/settings/account-settings.php:87, ../views/settings/advanced-settings.php:49, ../views/settings/advanced-settings.php:56, ../views/settings/advanced-settings.php:66, ../views/settings/advanced-settings.php:76
+msgid "Select a page"
+msgstr ""
+
+#: ../views/settings/account-settings.php:75
+msgid "Optionally add some text for the terms checkbox that customers must accept."
+msgstr ""
+
+#: ../views/settings/account-settings.php:78
+msgid "Privacy policy"
+msgstr ""
+
+#: ../views/settings/account-settings.php:80
+msgid "This section controls the display of your website privacy policy. The privacy notices below will not show up unless a privacy page is first set."
+msgstr ""
+
+#: ../views/settings/account-settings.php:83
+msgid "Privacy page"
+msgstr ""
+
+#: ../views/settings/account-settings.php:84
+msgid "Choose a page to act as your privacy policy."
+msgstr ""
+
+#: ../views/settings/account-settings.php:92
+msgid "Registration privacy policy"
+msgstr ""
+
+#: ../views/settings/account-settings.php:94
+msgid "Optionally add some text about your store privacy policy to show on account registration forms."
+msgstr ""
+
+#: ../views/settings/account-settings.php:98
+msgid "Checkout privacy policy"
+msgstr ""
+
+#: ../views/settings/account-settings.php:100
+msgid "Optionally add some text about your store privacy policy to show during checkout."
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:14
+msgid "Permalink slugs"
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:16
+msgid "NOTE: Just make sure that, after updating the fields in this section, you flush the rewrite rules by visiting Settings > Permalinks. Otherwise you'll still see the old links."
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:20
+msgid "Listing base"
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:23
+msgid "Listing base permalink. Default \"rtcl_listing\""
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:26
+msgid "Listing category base"
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:29
+msgid "Listing category base permalink."
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:32
+msgid "Listing location base"
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:35
+msgid "Listing location base permalink."
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:38
+msgid "Page setup"
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:40
+msgid "These pages need to be set so that listing endpoint."
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:43, ../views/settings/misc-settings.php:109
+msgid "Listings page"
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:46
+msgid "This is the page where all the active listings are displayed."
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:53
+msgid "Listing form page"
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:59
+msgid "This is the listing form page used to add or edit listing details. The [rtcl_listing_form] short code must be on this page."
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:63
+msgid "My account"
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:69
+msgid "This is the page where the users can view/edit their account info. The [rtcl_my_account] short code must be on this page."
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:73
+msgid "Checkout page"
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:78
+msgid "This is the checkout page where users will complete their purchases. The [rtcl_checkout] short code must be on this page."
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:83
+msgid "Account endpoints"
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:85
+msgid "Endpoints are appended to your page URLs to handle specific actions on the accounts pages. They should be unique and can be left blank to disable the endpoint."
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:99
+msgid "Edit Account"
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:109
+msgid "Lost Password"
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:119
+msgid "Checkout endpoints"
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:121
+msgid "Endpoints are appended to your page URLs to handle specific actions during the checkout process. They should be unique."
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:125
+msgid "Submission"
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:135
+msgid "Payment Receipt"
+msgstr ""
+
+#: ../views/settings/advanced-settings.php:140
+msgid "Payment Failure"
+msgstr ""
+
+#: ../views/settings/email-settings.php:15, ../views/settings/moderation-settings.php:15, ../views/settings/payment-settings.php:14
+msgid "General settings"
+msgstr ""
+
+#: ../views/settings/email-settings.php:20
+msgid "Notify admin via email when"
+msgstr ""
+
+#: ../views/settings/email-settings.php:26
+msgid "Notify users via email when their"
+msgstr ""
+
+#: ../views/settings/email-settings.php:40
+msgid "Email sender option"
+msgstr ""
+
+#: ../views/settings/email-settings.php:45
+msgid "From name"
+msgstr ""
+
+#: ../views/settings/email-settings.php:48
+msgid "The name system generated emails are sent from. This should probably be your site or directory name."
+msgstr ""
+
+#: ../views/settings/email-settings.php:52
+msgid "From email"
+msgstr ""
+
+#: ../views/settings/email-settings.php:55
+msgid "The sender email address should belong to the site domain."
+msgstr ""
+
+#: ../views/settings/email-settings.php:58
+msgid "Admin notification emails"
+msgstr ""
+
+#: ../views/settings/email-settings.php:62
+msgid "Enter the email address(es) that should receive admin notification emails, one per line."
+msgstr ""
+
+#: ../views/settings/email-settings.php:66
+msgid "Email template"
+msgstr ""
+
+#: ../views/settings/email-settings.php:68
+msgid "You can use the following placeholders"
+msgstr ""
+
+#: ../views/settings/email-settings.php:69
+msgid "Your site name"
+msgstr ""
+
+#: ../views/settings/email-settings.php:70
+msgid "Your site name with link"
+msgstr ""
+
+#: ../views/settings/email-settings.php:71
+msgid "Your site url with link"
+msgstr ""
+
+#: ../views/settings/email-settings.php:72
+msgid "Administration Email Address"
+msgstr ""
+
+#: ../views/settings/email-settings.php:73
+msgid "Link to renewal page"
+msgstr ""
+
+#: ../views/settings/email-settings.php:74
+msgid "Current date"
+msgstr ""
+
+#: ../views/settings/email-settings.php:75
+msgid "Current time"
+msgstr ""
+
+#: ../views/settings/email-settings.php:76
+msgid "This section lets you customize the Classified Listing emails. <a href=\"%s\" target=\"_blank\">Click here to preview your email template.</a>"
+msgstr ""
+
+#: ../views/settings/email-settings.php:79
+msgid "Email Content Type"
+msgstr ""
+
+#: ../views/settings/email-settings.php:83
+msgid "Choose which format of email to send."
+msgstr ""
+
+#: ../views/settings/email-settings.php:87
+msgid "Header image"
+msgstr ""
+
+#: ../views/settings/email-settings.php:91
+msgid "Footer text"
+msgstr ""
+
+#: ../views/settings/email-settings.php:92
+msgid "The text to appear in the footer of WooCommerce emails."
+msgstr ""
+
+#: ../views/settings/email-settings.php:92
+msgid "Available placeholders: %s"
+msgstr ""
+
+#: ../views/settings/email-settings.php:94
+msgid "N/A"
+msgstr ""
+
+#: ../views/settings/email-settings.php:99
+msgid "Base color"
+msgstr ""
+
+#: ../views/settings/email-settings.php:100
+msgid "The base color for WooCommerce email templates. Default %s."
+msgstr ""
+
+#: ../views/settings/email-settings.php:106
+msgid "Background color"
+msgstr ""
+
+#: ../views/settings/email-settings.php:107
+msgid "The background color for WooCommerce email templates. Default %s."
+msgstr ""
+
+#: ../views/settings/email-settings.php:113
+msgid "Body background color"
+msgstr ""
+
+#: ../views/settings/email-settings.php:114
+msgid "The main body background color. Default %s."
+msgstr ""
+
+#: ../views/settings/email-settings.php:120
+msgid "Body text color"
+msgstr ""
+
+#: ../views/settings/email-settings.php:121
+msgid "The main body text color. Default %s."
+msgstr ""
+
+#: ../views/settings/email-settings.php:127
+msgid "Listing submitted email ( confirmation )"
+msgstr ""
+
+#: ../views/settings/email-settings.php:130
+msgid "Template is override at %s"
+msgstr ""
+
+#: ../views/settings/email-settings.php:132
+msgid "To override and edit this email template copy %1$s to your theme folder: %2$s."
+msgstr ""
+
+#: ../views/settings/email-settings.php:136, ../views/settings/email-settings.php:150, ../views/settings/email-settings.php:170, ../views/settings/email-settings.php:184, ../views/settings/email-settings.php:204, ../views/settings/email-settings.php:218, ../views/settings/email-settings.php:232, ../views/settings/email-settings.php:246
+msgid "Subject"
+msgstr ""
+
+#: ../views/settings/email-settings.php:141, ../views/settings/email-settings.php:155, ../views/settings/email-settings.php:175, ../views/settings/email-settings.php:189, ../views/settings/email-settings.php:209, ../views/settings/email-settings.php:223, ../views/settings/email-settings.php:237, ../views/settings/email-settings.php:251
+msgid "Heading"
+msgstr ""
+
+#: ../views/settings/email-settings.php:146
+msgid "Listing published/approved email"
+msgstr ""
+
+#: ../views/settings/email-settings.php:160
+msgid "Listing renewal email"
+msgstr ""
+
+#: ../views/settings/email-settings.php:164
+msgid "Listing renewal email threshold (in days)"
+msgstr ""
+
+#: ../views/settings/email-settings.php:167
+msgid "Configure how many days before listing expiration is the renewal email sent."
+msgstr ""
+
+#: ../views/settings/email-settings.php:180
+msgid "Listing expired email"
+msgstr ""
+
+#: ../views/settings/email-settings.php:194
+msgid "Renewal reminder email"
+msgstr ""
+
+#: ../views/settings/email-settings.php:198
+msgid "Listing renewal reminder email threshold (in days)"
+msgstr ""
+
+#: ../views/settings/email-settings.php:201
+msgid "Configure how many days after the expiration of a listing an email reminder should be sent to the owner."
+msgstr ""
+
+#: ../views/settings/email-settings.php:214
+msgid "New Order"
+msgstr ""
+
+#: ../views/settings/email-settings.php:228
+msgid "Order completed email"
+msgstr ""
+
+#: ../views/settings/email-settings.php:242
+msgid "Listing contact email"
+msgstr ""
+
+#: ../views/settings/general-directory-settings.php:12
+msgid "Directory Settings"
+msgstr ""
+
+#: ../views/settings/general-directory-settings.php:17
+msgid "Enable Business Hours"
+msgstr ""
+
+#: ../views/settings/general-directory-settings.php:19
+msgid "Enable business hours"
+msgstr ""
+
+#: ../views/settings/general-directory-settings.php:22
+msgid "Enable Social Profiles"
+msgstr ""
+
+#: ../views/settings/general-directory-settings.php:24
+msgid "Enable social profiles"
+msgstr ""
+
+#: ../views/settings/general-settings.php:15
+msgid "Listing settings"
+msgstr ""
+
+#: ../views/settings/general-settings.php:21
+msgid "Bootstrap options"
+msgstr ""
+
+#: ../views/settings/general-settings.php:24
+msgid "This plugin uses bootstrap 4. Disable these options if your theme already include them."
+msgstr ""
+
+#: ../views/settings/general-settings.php:27
+msgid "Include bootstrap CSS"
+msgstr ""
+
+#: ../views/settings/general-settings.php:28
+msgid "Include bootstrap javascript libraries"
+msgstr ""
+
+#: ../views/settings/general-settings.php:32
+msgid "Include results from"
+msgstr ""
+
+#: ../views/settings/general-settings.php:36
+msgid "Child categories"
+msgstr ""
+
+#: ../views/settings/general-settings.php:37
+msgid "Child locations"
+msgstr ""
+
+#: ../views/settings/general-settings.php:41
+msgid "Listings per page"
+msgstr ""
+
+#: ../views/settings/general-settings.php:45
+msgid "Number of listings to show per page. Use a value of \"0\" to show all listings."
+msgstr ""
+
+#: ../views/settings/general-settings.php:49
+msgid "Number of listing for Related Listing"
+msgstr ""
+
+#: ../views/settings/general-settings.php:53
+msgid "Number of listings to show as related listing"
+msgstr ""
+
+#: ../views/settings/general-settings.php:56
+msgid "Order Listing by"
+msgstr ""
+
+#: ../views/settings/general-settings.php:67
+msgid "Sort listings by"
+msgstr ""
+
+#: ../views/settings/general-settings.php:71, ../views/settings/general-settings.php:93
+msgid "Ascending"
+msgstr ""
+
+#: ../views/settings/general-settings.php:72, ../views/settings/general-settings.php:94
+msgid "Descending"
+msgstr ""
+
+#: ../views/settings/general-settings.php:76
+msgid "Category / Location Order by"
+msgstr ""
+
+#: ../views/settings/general-settings.php:81, ../views/widgets/categories.php:35
+msgid "Id"
+msgstr ""
+
+#: ../views/settings/general-settings.php:82, ../views/widgets/categories.php:36
+msgid "Count"
+msgstr ""
+
+#: ../views/settings/general-settings.php:83, ../views/widgets/categories.php:37, ../views/widgets/categories.php:39
+msgid "Slug"
+msgstr ""
+
+#: ../views/settings/general-settings.php:84
+msgid "Custom Order"
+msgstr ""
+
+#: ../views/settings/general-settings.php:85
+msgid "None"
+msgstr ""
+
+#: ../views/settings/general-settings.php:89
+msgid "Category / Location Sort by"
+msgstr ""
+
+#: ../views/settings/general-settings.php:98
+msgid "Text Editor"
+msgstr ""
+
+#: ../views/settings/general-settings.php:102
+msgid "WP Editor"
+msgstr ""
+
+#: ../views/settings/general-settings.php:105
+msgid "Listing form Editor style"
+msgstr ""
+
+#: ../views/settings/general-settings.php:108
+msgid "Location settings"
+msgstr ""
+
+#: ../views/settings/general-settings.php:113
+msgid "First level location"
+msgstr ""
+
+#: ../views/settings/general-settings.php:118
+msgid "Second level location"
+msgstr ""
+
+#: ../views/settings/general-settings.php:123
+msgid "Third level location"
+msgstr ""
+
+#: ../views/settings/general-settings.php:128
+msgid "Currency Options"
+msgstr ""
+
+#: ../views/settings/general-settings.php:130, ../views/settings/payment-settings.php:33
+msgid "The following options affect how prices are displayed on the frontend."
+msgstr ""
+
+#: ../views/settings/general-settings.php:134, ../views/settings/payment-settings.php:36
+msgid "Currency"
+msgstr ""
+
+#: ../views/settings/general-settings.php:140, ../views/settings/payment-settings.php:42
+msgid "Currency position"
+msgstr ""
+
+#: ../views/settings/general-settings.php:146, ../views/settings/payment-settings.php:48
+msgid "Thousands separator"
+msgstr ""
+
+#: ../views/settings/general-settings.php:149, ../views/settings/payment-settings.php:51
+msgid "The symbol (usually , or .) to separate thousands."
+msgstr ""
+
+#: ../views/settings/general-settings.php:153, ../views/settings/payment-settings.php:55
+msgid "Decimal separator"
+msgstr ""
+
+#: ../views/settings/general-settings.php:156, ../views/settings/payment-settings.php:58
+msgid "The symbol (usually , or .) to separate decimal points."
+msgstr ""
+
+#: ../views/settings/import-export.php:7
+msgid "Select Import File"
+msgstr ""
+
+#: ../views/settings/import-export.php:13
+msgid "Choose file..."
+msgstr ""
+
+#: ../views/settings/import-export.php:20
+msgid "Sample data <a href='%s' target='_blank'>click here</a>"
+msgstr ""
+
+#: ../views/settings/listing-type.php:12, ../views/settings/listing-type.php:17
+msgid "Add new type"
+msgstr ""
+
+#: ../views/settings/listing-type.php:57
+msgid "No listing type found"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:15
+msgid "Image Sizes"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:19
+msgid "Galley Slider"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:23, ../views/settings/misc-settings.php:34, ../views/settings/misc-settings.php:45
+msgid "Width"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:24, ../views/settings/misc-settings.php:35, ../views/settings/misc-settings.php:46
+msgid "Height"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:25, ../views/settings/misc-settings.php:36, ../views/settings/misc-settings.php:47
+msgid "Hard Crop"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:27
+msgid "This image size is being used in the image slider on Listing details pages."
+msgstr ""
+
+#: ../views/settings/misc-settings.php:38
+msgid "Gallery thumbnail image size"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:41
+msgid "Thumbnail"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:49
+msgid "Listing thumbnail size will use all listing page"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:52
+msgid "Allowed Image type"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:56
+msgid "PNG"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:57
+msgid "JPG"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:58
+msgid "JPEG"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:62
+msgid "Allowed Image memory size"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:65
+msgid "Enter the image memory size, like 2 for 2 MB (only number with out MB) <br><span style=\"color: red\">Your hosting allowed maximum %s</span>"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:69
+msgid "User can edit image"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:72
+msgid "User can edit image size , can crop , can make feature"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:75
+msgid "Place holder image"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:77
+msgid "Select an Image to display as placeholder if have no image."
+msgstr ""
+
+#: ../views/settings/misc-settings.php:80
+msgid "Single Listing"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:84
+msgid "Disable gallery slider"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:86, ../views/settings/misc-settings.php:91
+msgid "Disable"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:89
+msgid "Disable gallery video"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:94
+msgid "Social Share buttons"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:98
+msgid "Enable services"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:104
+msgid "Show buttons in"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:108
+msgid "Listing detail page"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:110
+msgid "Categories page"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:111
+msgid "Locations page"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:115
+msgid "reCAPTCHA settings"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:119
+msgid "Enable reCAPTCHA in"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:124
+msgid "Site key"
+msgstr ""
+
+#: ../views/settings/misc-settings.php:128
+msgid "Secret key"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:20
+msgid "Listing duration (in days)"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:23
+msgid "Use a value of \"0\" to keep a listing alive indefinitely."
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:26
+msgid "New listing threshold (in days)"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:29
+msgid "Enter the number of days the listing will be tagged as \"New\" from the day it is published."
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:33
+msgid "Label text for new listings"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:36
+msgid "Enter the text you want to use inside the \"New\" tag."
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:39
+msgid "Label text for Feature listings"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:42
+msgid "Enter the text you want to use inside the \"Featured\" tag."
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:45
+msgid "Show in listing"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:51
+msgid "Show in listing detail page"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:57
+msgid "Detail page sidebar position"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:64
+msgid "Add to favourites"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:67
+msgid "Check this to enable Favourite"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:70
+msgid "Report abuse"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:73
+msgid "Check this to enable Report abuse"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:79
+msgid "Allows visitors to contact listing authors privately. Authors will receive the messages via email."
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:82
+msgid "Review form"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:84
+msgid "Allow visitors to review your listing."
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:87
+msgid "Maximum images allowed per listing"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:92
+msgid "Delete expired Listings (in days)"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:95
+msgid "If you have the renewal option enabled, this will be the number of days after the \"Renewal Reminder\" email was sent."
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:99
+msgid "New Listing status"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:103
+msgid "Listing status at new listing"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:106
+msgid "Listing status after edit"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:117
+msgid "Title character limit"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:119, ../views/settings/moderation-settings.php:124
+msgid "Leave it blank if you like no limit"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:122
+msgid "Description character limit"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:127
+msgid "Hide form fields"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:132
+msgid "Redirect after new listing"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:136, ../views/settings/moderation-settings.php:156
+msgid "Redirect after successfully post a new listing"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:139
+msgid "Custom redirect url after new listing"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:151
+msgid "Redirect after update listing"
+msgstr ""
+
+#: ../views/settings/moderation-settings.php:159
+msgid "Custom redirect url after update listing"
+msgstr ""
+
+#: ../views/settings/payment-settings.php:19
+msgid "Payment Enable/Disable"
+msgstr ""
+
+#: ../views/settings/payment-settings.php:21
+msgid "Charge users for posting classified ads on your site."
+msgstr ""
+
+#: ../views/settings/payment-settings.php:24
+msgid "Enforce SSL on checkout"
+msgstr ""
+
+#: ../views/settings/payment-settings.php:26
+msgid "Check this to force users to be redirected to the secure checkout page. You must have an SSL certificate installed to use this option."
+msgstr ""
+
+#: ../views/settings/payment-settings.php:30
+msgid "Currency options"
+msgstr ""
+
+#: ../views/settings/style-settings.php:12
+msgid "Global Style"
+msgstr ""
+
+#: ../views/settings/style-settings.php:17
+msgid "Primary"
+msgstr ""
+
+#: ../views/settings/style-settings.php:21
+msgid "Link color"
+msgstr ""
+
+#: ../views/settings/style-settings.php:25
+msgid "Link color on hover"
+msgstr ""
+
+#: ../views/settings/style-settings.php:29
+msgid "Button color"
+msgstr ""
+
+#: ../views/settings/style-settings.php:33
+msgid "Button color on hover"
+msgstr ""
+
+#: ../views/settings/style-settings.php:37
+msgid "Button text color"
+msgstr ""
+
+#: ../views/settings/style-settings.php:41
+msgid "Button text color on hover"
+msgstr ""
+
+#: ../views/settings/style-settings.php:45
+msgid "Single listing page style"
+msgstr ""
+
+#: ../views/settings/style-settings.php:49
+msgid "Label Style"
+msgstr ""
+
+#: ../views/settings/style-settings.php:53
+msgid "New label background color"
+msgstr ""
+
+#: ../views/settings/style-settings.php:57
+msgid "New label text color"
+msgstr ""
+
+#: ../views/settings/style-settings.php:61
+msgid "Feature label background color"
+msgstr ""
+
+#: ../views/settings/style-settings.php:65
+msgid "Feature label text color"
+msgstr ""
+
+#: ../views/settings/tools-settings.php:16
+msgid "Data Management"
+msgstr ""
+
+#: ../views/settings/tools-settings.php:18
+msgid "You can remove all classified listing cache from here. <a href=\"%s\">Clear all cache</a>"
+msgstr ""
+
+#: ../views/settings/tools-settings.php:24
+msgid "Delete all data"
+msgstr ""
+
+#: ../views/settings/tools-settings.php:26
+msgid "Allow to delete all all listing data during delete this plugin"
+msgstr ""
+
+#: ../views/widgets/categories.php:10, ../views/widgets/categories.php:13
+msgid "Select Parent"
+msgstr ""
+
+#: ../views/widgets/categories.php:70
+msgid "Show only the immediate children of the selected category. Displays all the top level categories if no parent is selected."
+msgstr ""
+
+#: ../views/widgets/categories.php:78
+msgid "Show image of the Categories"
+msgstr ""
+
+#: ../views/widgets/categories.php:85
+msgid "Show icon of the Categories"
+msgstr ""
+
+#: ../views/widgets/categories.php:93
+msgid "Hide Empty Categories"
+msgstr ""
+
+#: ../views/widgets/categories.php:101
+msgid "Show Listing Counts"
+msgstr ""

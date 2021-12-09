@@ -1,0 +1,25 @@
+diff --git a/project/wp-app/wp-content/plugins/classified-listing-pro/app/Controllers/Query.php b/project/wp-app/wp-content/plugins/classified-listing-pro/app/Controllers/Query.php
+index 1cd8e29..3568e7e 100755
+--- a/project/wp-app/wp-content/plugins/classified-listing-pro/app/Controllers/Query.php
++++ b/project/wp-app/wp-content/plugins/classified-listing-pro/app/Controllers/Query.php
+@@ -97,11 +97,18 @@ class Query
+         }
+ 
+         if ($id = Functions::get_page_id('myaccount')) {
+-            $link = str_replace($url, '', get_permalink($id));
++            $url = explode('?', $url);
++            $url = $url[0];
++            $permalink = get_permalink($id);
++            $permalink = explode('?', $permalink);
++            $permalink = $permalink[0];
++
++            $link = str_replace($url, '', $permalink);
+             $link = trim($link, '/');
++
+             foreach ($this->get_query_vars() as $key => $var) {
+                 if ($key === "listings" || $key === "favourites" || $key === "payments") {
+-                    add_rewrite_rule("$link/$var/page/?([0-9]{1,})/?$", 'index.php?' . $var . '=&page_id=' . $id . '&paged=$matches[1]', 'top');
++                    add_rewrite_rule("$link/$var/page/?([0-9]{1,})/?(\?.*)?", 'index.php?' . $var . '=&page_id=' . $id . '&paged=$matches[1]', 'top');
+                 } elseif (Functions::is_wc_active() && $key === "edit-account") {
+                     add_rewrite_rule("$link/($var)/?$", 'index.php?page_id=' . $id . '&rtcl_edit_account=$matches[1]', 'top');
+                     add_rewrite_tag('%rtcl_edit_account%', '([^/]+)');
